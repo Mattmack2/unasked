@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "status": "WAITING_FOR_TURN1",
-  "pending_report": null,
-  "pending_candidate_id": null,
-  "pending_question": null,
+  "status": "TURN1_READY",
+  "pending_report": "research/full/2026-08-21-planarian-regenerative-memory-turn1.md",
+  "pending_candidate_id": "C-MB-008",
+  "pending_question": "If a planarian flatworm loses its entire brain and regenerates a new one, can a learned behavioral preference survive—and if so, what biological substrate could preserve enough information for the new brain to recover it?",
   "last_published": "2026-08-21-miyake-events",
-  "note": "Manual Turn 2 for C-EV-007 completed with SURVIVES_WITH_CORRECTIONS and was published. The normal Unasked pipeline is ready for a new Turn 1 on the next invocation. The hourly schedule remains disabled for manual operation."
+  "note": "Manual MEMORY-BLIND Turn 1 frozen on planarian regenerative memory. The next invocation must perform Turn 2 on C-MB-008 before generating or publishing another candidate. The hourly schedule remains disabled for manual operation."
 }
