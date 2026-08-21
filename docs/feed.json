@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-shipping-sulfur-clouds",
+    "folio": 5,
+    "published_at": "2026-08-21T10:18:00Z",
+    "title": "We cleaned up ship fuel. The clouds noticed.",
+    "hook": "The 2020 sulfur cap on marine fuel did more than clean the air: it abruptly weakened a decades-old aerosol experiment over the oceans and let researchers watch clouds respond.",
+    "simple": "Sulfur-rich ship exhaust creates sulfate particles that can brighten susceptible marine clouds. Cutting fuel sulfur from 3.5% to 0.5% sharply reduced that aerosol source, weakening some cloud brightening and exposing a small amount of greenhouse warming that pollution had been masking.",
+    "why_interesting": "The useful story is not that pollution was good. IMO2020 acted like a huge before/after experiment in one of climate science's hardest problems: aerosol-cloud forcing. The obvious white ship tracks also turned out to be a biased fraction of the atmospheric response.",
+    "tangible_edge": "Independent model and observational studies converge on a positive forcing of roughly the same broad order, a 2025 regional study found post-rule lightning changes over the Bay of Bengal, and a southeastern Atlantic closure study found visible tracks represented only about 5% of ship aerosol indirect forcing in that analysis.",
+    "why_here": "Expectation violation: an air-quality rule became a rare real-world perturbation of cloud microphysics, with consequences that are more scientifically useful than the shallow 'cleaner air caused warming' headline.",
+    "lane": "EXPECTATION VIOLATION",
+    "primary_domain": "EARTH & ENVIRONMENT",
+    "story_grammar": "HIDDEN MECHANISM",
+    "evidence_status": "CURRENT RESULT",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 10,
+    "confidence": "high on the sign of the sulfur-cloud perturbation and post-2020 emissions change; moderate on exact global forcing magnitude; low-to-moderate on attribution of specific recent temperature anomalies",
+    "article": "articles/2026-08-21-shipping-sulfur-clouds.md",
+    "tags": ["IMO2020", "aerosols", "clouds", "shipping", "climate", "marine cloud brightening"]
+  },
+  {
     "id": "2026-08-21-microchimerism",
     "folio": 4,
     "published_at": "2026-08-21T10:03:00Z",
