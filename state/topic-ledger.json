@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-miyake-events",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "CAPABILITY SHIFT",
+      "evidence_status": "ESTABLISHED",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "cosmogenic radiocarbon events as exact-year archaeological synchronization markers",
+      "bridge_fields": ["radiocarbon dating", "dendrochronology", "archaeology", "solar physics", "tree physiology"],
+      "key_vocabulary": ["Miyake event", "cosmogenic radionuclide", "astrochronological tie-point", "crossdating", "non-structural carbohydrates", "earlywood", "latewood"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T13:13:00Z"
+    },
+    {
       "id": "2026-08-21-evolutionary-simulation-worlds",
       "lane": "SIDE REPORT",
       "primary_domain": "COMPUTATION & TECHNOLOGY",
