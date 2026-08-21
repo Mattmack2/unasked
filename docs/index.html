@@ -13,7 +13,7 @@
   </script>
   <title>Unasked — Field Journal</title>
   <meta name="description" content="A private field journal for things you did not know to look up.">
-  <link rel="stylesheet" href="styles.css?v=20260821-2">
+  <link rel="stylesheet" href="styles.css?v=20260821-3">
 </head>
 <body>
   <a class="skip" href="#feed">Skip to dispatches</a>
@@ -66,49 +66,77 @@
       </header>
 
       <section class="legend-strip" aria-label="How to read the journal">
-        <span><b>PLAIN</b> what it is</span>
-        <span><b>WHY</b> the mental-model change</span>
-        <span><b>EDGE</b> where it becomes tangible</span>
+        <span><b>PLAIN</b> what happened</span>
+        <span><b>WHY</b> what changes</span>
+        <span><b>EDGE</b> one sharp take</span>
+      </section>
+
+      <section class="mobile-side-feed-shell" aria-label="Unasked fictional side feed">
+        <div class="side-feed-title-row">
+          <div>
+            <div class="rail-label">SIDE FEED</div>
+            <div class="side-identity"><strong>Unasked</strong> <span>@unasked_notes</span></div>
+          </div>
+          <span class="fictional-label">FICTIONAL</span>
+        </div>
+        <div id="side-feed-mobile" class="side-feed-mobile-list"></div>
       </section>
 
       <section id="feed" class="feed" aria-live="polite"></section>
       <div id="empty" class="empty" hidden>No field notes match this view.</div>
     </main>
 
-    <aside class="method-rail" aria-label="Method and evidence legend">
+    <aside class="method-rail" aria-label="Side feed and method">
       <div class="method-inner">
-        <section class="ledger-block">
-          <div class="rail-label">METHOD</div>
-          <dl class="method-grid">
-            <div><dt>PASSES</dt><dd>02</dd></div>
-            <div><dt>TURN 01</dt><dd>DISCOVER</dd></div>
-            <div><dt>TURN 02</dt><dd>ATTACK</dd></div>
-            <div><dt>OUTPUT</dt><dd>SURVIVORS</dd></div>
-          </dl>
-          <p class="script-note">One run explores. A later run tries to break the frozen result. Fluency is not validation.</p>
+        <section class="side-feed-block">
+          <div class="side-feed-title-row">
+            <div>
+              <div class="rail-label">SIDE FEED</div>
+              <div class="side-identity"><strong>Unasked</strong> <span>@unasked_notes</span></div>
+            </div>
+            <span class="fictional-label">FICTIONAL</span>
+          </div>
+          <p class="side-feed-explainer">Small things worth posting from the reports. Not another set of summaries.</p>
+          <div id="side-feed" class="side-feed-list"></div>
         </section>
 
-        <section class="ledger-block">
-          <div class="rail-label">EVIDENCE</div>
-          <ul class="key-list">
-            <li><span class="key-mark established"></span>ESTABLISHED</li>
-            <li><span class="key-mark current"></span>CURRENT RESULT</li>
-            <li><span class="key-mark frontier"></span>FRONTIER</li>
-            <li><span class="key-mark contested"></span>CONTESTED</li>
-            <li><span class="key-mark forecast"></span>FORECAST</li>
-          </ul>
-        </section>
+        <details class="method-disclosure">
+          <summary>METHOD &amp; EVIDENCE</summary>
+          <div class="method-disclosure-body">
+            <section class="ledger-block">
+              <div class="rail-label">METHOD</div>
+              <dl class="method-grid">
+                <div><dt>PASSES</dt><dd>02</dd></div>
+                <div><dt>TURN 01</dt><dd>DISCOVER</dd></div>
+                <div><dt>TURN 02</dt><dd>ATTACK</dd></div>
+                <div><dt>OUTPUT</dt><dd>SURVIVORS</dd></div>
+              </dl>
+              <p class="script-note">One run explores. A later run tries to break the frozen result. Fluency is not validation.</p>
+            </section>
 
-        <section class="ledger-block">
-          <div class="rail-label">DISCOVERY</div>
-          <p class="small-copy"><b>DISCOVERY CANDIDATE</b> means the research found a connection worth testing. <b>NEW DISCOVERY</b> is deliberately rare and requires stronger independent validation.</p>
-        </section>
+            <section class="ledger-block">
+              <div class="rail-label">EVIDENCE</div>
+              <ul class="key-list">
+                <li><span class="key-mark established"></span>ESTABLISHED</li>
+                <li><span class="key-mark current"></span>CURRENT RESULT</li>
+                <li><span class="key-mark frontier"></span>FRONTIER</li>
+                <li><span class="key-mark contested"></span>CONTESTED</li>
+                <li><span class="key-mark forecast"></span>FORECAST</li>
+              </ul>
+            </section>
+
+            <section class="ledger-block">
+              <div class="rail-label">DISCOVERY</div>
+              <p class="small-copy"><b>DISCOVERY CANDIDATE</b> means the research found a connection worth testing. <b>NEW DISCOVERY</b> is deliberately rare and requires stronger independent validation.</p>
+            </section>
+          </div>
+        </details>
 
         <button id="export-feedback" class="quiet-button">EXPORT MY MARKS</button>
       </div>
     </aside>
   </div>
 
-  <script src="app.js?v=20260821-2"></script>
+  <script src="app.js?v=20260821-3"></script>
 </body>
 </html>
