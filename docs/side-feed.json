@@ -1,5 +1,19 @@
 [
   {
+    "id": "side-20260821-020",
+    "posted_at": "2026-08-21T13:56:00Z",
+    "mode": "reaction",
+    "text": "The planarian story is better after the replication failure. ‘Memory survived decapitation’ becomes: what is the smallest piece of old tissue that has to survive for a new brain to behave differently?",
+    "report_ids": ["2026-08-21-planarian-regenerative-memory"]
+  },
+  {
+    "id": "side-20260821-019",
+    "posted_at": "2026-08-21T13:53:00Z",
+    "mode": "detail",
+    "text": "Important correction: a decapitated planarian is brainless, not nerveless. The tail still has nerve cords. That makes the whole ‘memory outside the brain’ story much less mystical and much more testable.",
+    "report_ids": ["2026-08-21-planarian-regenerative-memory"]
+  },
+  {
     "id": "side-20260821-018",
     "posted_at": "2026-08-21T13:50:00Z",
     "mode": "connection",
