@@ -1,9 +1,9 @@
 {
   "version": 2,
   "status": "TURN1_READY",
-  "pending_report": "research/full/2026-08-21-microchimerism-turn1.md",
-  "pending_candidate_id": "C-MB-003",
-  "pending_question": "Does pregnancy leave long-lived genetically distinct cells in both mother and child, and what—if anything—does that change about how biology defines an individual?",
-  "last_published": "2026-08-21-olfactory-heritage",
-  "note": "Manual MEMORY-BLIND Turn 1 frozen on pregnancy-associated microchimerism. The next invocation must perform Turn 2 on this report before generating or publishing another candidate."
+  "pending_report": "research/full/2026-08-21-shipping-sulfur-clouds-turn1.md",
+  "pending_candidate_id": "C-EV-004",
+  "pending_question": "Did the 2020 cleanup of sulfur pollution from ships measurably darken marine clouds and unmask greenhouse warming—and what does that real-world experiment actually tell us about aerosols, clean-air policy, and marine cloud brightening?",
+  "last_published": "2026-08-21-microchimerism",
+  "note": "Microchimerism Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. A new Turn 1 is frozen on the IMO2020 shipping-sulfur aerosol-cloud natural experiment; the next invocation must perform Turn 2 before publication or generating another candidate."
 }
