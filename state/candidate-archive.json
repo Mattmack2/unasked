@@ -17,13 +17,16 @@
     },
     {
       "id": "C-MB-002",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "MEMORY-BLIND",
       "primary_domain": "CULTURE & CRAFT",
       "story_grammar": "CAPABILITY SHIFT",
       "question": "Can a smell meaningfully be preserved as cultural heritage—and if the physical source or living practice disappears, what exactly can an archive save?",
       "why_preserved": "Very far from the recent research neighborhood; mature unfamiliar vocabulary plus a current 2026 method frontier, museum practice, policy consequence, and a strong authenticity problem.",
-      "turn1_artifact": "research/full/2026-08-21-olfactory-heritage-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-olfactory-heritage-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-olfactory-heritage-turn2.md",
+      "published_article": "docs/articles/2026-08-21-olfactory-heritage.md",
+      "turn2_note": "Survived after narrowing the perfume reproduction claim, balancing cross-cultural perception, rejecting novelty for the temporal-version idea, and reframing scent archives as sample plus method, provenance, context, and explicit temporal target."
     },
     {
       "id": "C-V-002",
