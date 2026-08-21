@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-microchimerism",
+    "folio": 4,
+    "published_at": "2026-08-21T10:03:00Z",
+    "title": "A body can keep cells from another person for decades",
+    "hook": "Pregnancy leaves more than a temporary biological interface: rare cells can cross in both directions and persist for decades. The stranger frontier is what controls which of those foreign cell populations remain.",
+    "simple": "Pregnancy-associated microchimerism is the long-term persistence of a tiny number of genetically distinct cells transferred between mother and fetus. Fetal-origin cells can persist in mothers, and maternal-origin cells can persist in adult offspring.",
+    "why_interesting": "It breaks the simple equation between one body and one cellular genome, while connecting directly to the history of immunological tolerance. Recent mouse work also complicates the sentimental 'cellular scrapbook' story by showing that later pregnancies can displace older microchimeric populations.",
+    "tangible_edge": "Human studies detected fetal-origin progenitor markers up to 27 years after pregnancy and maternal-origin markers in adult offspring up to age 49; modern rare-cell methods are now shifting the field from detection toward cell identity, location and function.",
+    "why_here": "Memory-blind hidden mechanism: a mature biological phenomenon far outside the recent feed whose established facts are strange enough on their own, with an active measurement and population-dynamics frontier.",
+    "lane": "MEMORY-BLIND",
+    "primary_domain": "LIFE & MEDICINE",
+    "story_grammar": "HIDDEN MECHANISM",
+    "evidence_status": "ESTABLISHED",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 9,
+    "confidence": "high on bidirectional long-term persistence; moderate-to-low on general functional effects and on whether mouse population replacement dynamics generalize to humans",
+    "article": "articles/2026-08-21-microchimerism.md",
+    "tags": ["microchimerism", "pregnancy", "immunology", "cell biology", "immune tolerance"]
+  },
+  {
     "id": "2026-08-21-olfactory-heritage",
     "folio": 3,
     "published_at": "2026-08-21T09:46:00Z",
@@ -17,13 +37,7 @@
     "read_minutes": 9,
     "confidence": "high that olfactory heritage is a real interdisciplinary practice and that bounded scent reconstruction can be rigorously validated; moderate on how well these methods generalize to complex or vanished smellscapes",
     "article": "articles/2026-08-21-olfactory-heritage.md",
-    "tags": [
-      "olfactory heritage",
-      "smellscape",
-      "museums",
-      "conservation",
-      "sensomics"
-    ]
+    "tags": ["olfactory heritage", "smellscape", "museums", "conservation", "sensomics"]
   },
   {
     "id": "2026-08-21-deep-time-enamel-proteins",
@@ -43,13 +57,7 @@
     "read_minutes": 9,
     "confidence": "high that enamel palaeoproteomics is a real and expanding molecular method; moderate on how broadly it will scale across collections and deep-time preservation regimes",
     "article": "articles/2026-08-21-deep-time-enamel-proteins.md",
-    "tags": [
-      "human evolution",
-      "palaeoproteomics",
-      "fossils",
-      "mass spectrometry",
-      "deep time"
-    ]
+    "tags": ["human evolution", "palaeoproteomics", "fossils", "mass spectrometry", "deep time"]
   },
   {
     "id": "2026-08-21-undiscovered-public-knowledge",
@@ -69,11 +77,6 @@
     "read_minutes": 8,
     "confidence": "high on the history of literature-based discovery; exploratory on the personal horizon-scanner application",
     "article": "articles/2026-08-21-undiscovered-public-knowledge.md",
-    "tags": [
-      "discovery",
-      "information science",
-      "research",
-      "unknown unknowns"
-    ]
+    "tags": ["discovery", "information science", "research", "unknown unknowns"]
   }
 ]
