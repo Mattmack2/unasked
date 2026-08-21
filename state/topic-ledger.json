@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-missing-lead-paradox",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "PHYSICAL WORLD & SPACE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "deep-Earth isotope bookkeeping",
+      "bridge_fields": ["lead isotope geochemistry", "mantle mineral physics", "planetary differentiation"],
+      "key_vocabulary": ["first Pb paradox", "geochron", "radiogenic lead", "bulk silicate Earth", "HIMU"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T10:24:00Z"
+    },
+    {
       "id": "2026-08-21-shipping-sulfur-clouds",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "EARTH & ENVIRONMENT",
