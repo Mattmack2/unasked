@@ -95,6 +95,61 @@
       "turn2_note": "Survived after moving exactness from the spike itself to the full synchronization chain; validating L'Anse, Changbaishan and Dispilio against multi-sample/crossdating controls; promoting the prolonged ca. 660 BCE event as a counterexample to one-spike/one-year thinking; and strengthening the physiology correction with empirical Larix/Quercus offsets and stored-carbon evidence."
     },
     {
+      "id": "C-MB-008",
+      "status": "selected_turn1_frozen",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "LIFE & MEDICINE",
+      "story_grammar": "RECEIVED_WISDOM_UNDER_REVIEW + HIDDEN_MECHANISM",
+      "question": "If a planarian flatworm loses its entire brain and regenerates a new one, can a learned behavioral preference survive—and if so, what biological substrate could preserve enough information for the new brain to recover it?",
+      "why_preserved": "A 2026 peer-reviewed conditioned-place-preference result, a 2026 Harvard/Gershman conditioning failure, and an August 2026 Levin-group positive preprint create an unusually direct live replication frontier. The key correction is that posterior fragments are brainless but retain peripheral and ventral-cord nervous tissue.",
+      "turn1_artifact": "research/full/2026-08-21-planarian-regenerative-memory-turn1.md"
+    },
+    {
+      "id": "C-VT-008",
+      "status": "dormant",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "LIFE & MEDICINE",
+      "story_grammar": "RECEIVED_WISDOM_UNDER_REVIEW",
+      "question": "How far into programmed cell death can a cell travel and still recover through anastasis?",
+      "why_preserved": "A 2026 methods critique sharpens the distinction between genuine late-stage reversal and merely sublethal or failed apoptosis."
+    },
+    {
+      "id": "C-EV-008",
+      "status": "dormant",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "RECEIVED_WISDOM_UNDER_REVIEW",
+      "question": "Is the reported production of 'dark oxygen' by deep-sea polymetallic nodules a new geochemical process or an experimental artefact?",
+      "why_preserved": "High-value live controversy with direct thermodynamic and control-experiment criticism; wait for independent 2026 replication work before promotion."
+    },
+    {
+      "id": "C-BR-008",
+      "status": "dormant",
+      "lane": "BRIDGE",
+      "primary_domain": "LIFE & MEDICINE",
+      "story_grammar": "CROSS_DOMAIN_BRIDGE",
+      "question": "Can rare medicinal behavior in wild animals reliably guide pharmacological discovery without confusing unusual diet with intentional self-treatment?",
+      "why_preserved": "Recent chimpanzee wound-care and plant-use work makes the bridge tangible, but intentionality and pharmacological causality remain difficult."
+    },
+    {
+      "id": "C-WS-008",
+      "status": "dormant",
+      "lane": "WEAK SIGNAL",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "HIDDEN_MECHANISM",
+      "question": "Do plant-connecting fungal networks extend substantially beyond mycorrhizal fungi, and does that change what the 'wood-wide web' actually is?",
+      "why_preserved": "A 2025 lab study shows a dark septate endophyte physically connecting sorghum plants and transferring a tracer, but ecological generality is unknown."
+    },
+    {
+      "id": "C-FD-008",
+      "status": "dormant",
+      "lane": "FAILED DREAM",
+      "primary_domain": "LIFE & MEDICINE",
+      "story_grammar": "FAILED_DREAM_REVIVAL",
+      "question": "What changed enough for phage therapy to return from a century of uneven clinical promise as a serious programmable antibacterial platform?",
+      "why_preserved": "Strong failed-dream structure, but currently more familiar than the selected candidate and vulnerable to generic biotech framing."
+    },
+    {
       "id": "C-FD-004",
       "status": "dormant",
       "lane": "FAILED DREAM",
