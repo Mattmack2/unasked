@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-hot-hand-defense",
+      "lane": "BRIDGE",
+      "primary_domain": "SPORT & COMPETITION",
+      "story_grammar": "HIDDEN MECHANISM",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "adaptive opponent response in sports statistics",
+      "bridge_fields": ["sports analytics", "behavioral decision-making", "causal inference", "player tracking"],
+      "key_vocabulary": ["streak selection bias", "endogenous opponent response", "shot difficulty", "state-space momentum model"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T10:30:00Z"
+    },
+    {
       "id": "2026-08-21-missing-lead-paradox",
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "PHYSICAL WORLD & SPACE",
