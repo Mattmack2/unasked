@@ -4,6 +4,6 @@
   "pending_report": "research/full/2026-08-21-air-monitor-biodiversity-turn1.md",
   "pending_candidate_id": "C-BR-007",
   "pending_question": "Can existing air-pollution and atmospheric-monitoring networks double as large-scale biodiversity observatories—and can their stored filters recover ecological histories that nobody intended to record?",
-  "last_published": "2026-08-21-ai-subscription-shadow-market",
-  "note": "The normal Unasked pipeline remains deliberately frozen on airborne-eDNA Turn 1 and the hourly schedule remains disabled. A separate user-directed side report on LLM/sandbox/air-gap physical containment has completed and frozen Turn 1 at research/full/2026-08-21-llm-airgap-containment-turn1.md; its next side-track step is Turn 2 validation."
+  "last_published": "2026-08-21-llm-airgap-containment",
+  "note": "The normal Unasked pipeline remains deliberately frozen on airborne-eDNA Turn 1 and the hourly schedule remains disabled. The user-directed LLM/sandbox/air-gap containment side report completed Turn 2 with SURVIVES_WITH_CORRECTIONS and was published."
 }
