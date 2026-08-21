@@ -2,6 +2,31 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-olfactory-heritage",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "CULTURE & CRAFT",
+      "story_grammar": "CAPABILITY SHIFT",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "memory-blind / outside recent active research neighborhoods",
+      "bridge_fields": [
+        "olfactory heritage",
+        "heritage conservation",
+        "sensory science",
+        "museum studies"
+      ],
+      "key_vocabulary": [
+        "olfactory heritage",
+        "smellscape",
+        "smellmark",
+        "GC-olfactometry",
+        "odour activity value",
+        "sensomics"
+      ],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T09:46:00Z"
+    },
+    {
       "id": "2026-08-21-deep-time-enamel-proteins",
       "lane": "MEMORY-BLIND",
       "primary_domain": "HUMAN PAST",
