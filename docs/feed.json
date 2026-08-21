@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-hot-hand-defense",
+    "folio": 7,
+    "published_at": "2026-08-21T10:30:00Z",
+    "title": "The hot-hand problem has an opponent in it",
+    "hook": "Recent shooting success changes defensive pressure and shot selection, so the next attempt is partly produced by the previous attempts. That complicates hot-hand measurement without proving the hot hand itself.",
+    "simple": "NBA defenders measurably respond to recent shooting success. The strongest current tracking result is localized to the closest defender over short recent-success windows; team-wide effects are weaker.",
+    "why_interesting": "A shooter's observed percentage after a streak is not a clean readout of the shooter's internal state. Success can make the next shot harder even if the shooter's latent ability rises—or can change the game even if it never rises at all.",
+    "tangible_edge": "2014 optical tracking found hotter shooters faced tighter defense and harder shots; a 2026 tracking study found more recent makes predicted smaller closest-defender distance in a five-shot model, while newer shot-difficulty studies still disagree on whether latent in-game hot-hand performance is positive.",
+    "why_here": "Bridge between sports statistics and adaptive-system measurement: competitive performance changes the environment that produces the next measurement.",
+    "lane": "BRIDGE",
+    "primary_domain": "SPORT & COMPETITION",
+    "story_grammar": "HIDDEN MECHANISM",
+    "evidence_status": "CURRENT RESULT",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 6,
+    "confidence": "high that defenses and shot environments respond to recent shooting success; moderate on the size and generality of the 2026 closest-defender effect; unresolved on the existence and size of a latent in-game hot-hand effect",
+    "article": "articles/2026-08-21-hot-hand-defense.md",
+    "tags": ["hot hand", "basketball", "defense", "player tracking", "sports statistics", "endogeneity"]
+  },
+  {
     "id": "2026-08-21-missing-lead-paradox",
     "folio": 6,
     "published_at": "2026-08-21T10:24:00Z",
