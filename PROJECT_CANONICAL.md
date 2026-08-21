@@ -1,4 +1,4 @@
-# Unasked — Project Canonical v2
+# Unasked — Project Canonical v3
 
 ## Product
 
@@ -46,20 +46,25 @@ Surprise, usefulness, explanatory power, evidence strength, personal relevance, 
 ### 7. Reader-facing progressive disclosure is mandatory
 Every published item has three depths:
 
-1. **30–60 seconds:** simple explanation + why it is interesting + tangible edge.
+1. **20–45 seconds:** a concrete hook plus `PLAIN`, `WHY`, and `EDGE`.
 2. **5–10 minutes:** the actual article, including mechanism, history, examples, uncertainty, and consequence.
 3. **Optional audit:** sources, Turn 1 research, Turn 2 validation, search/genealogy notes.
 
+`PLAIN` must assume no specialist vocabulary. `WHY` states the mental-model change. `EDGE` makes one non-obvious move beyond the finding: an implication, tension, connection, counterfactual, specific use, or unlocked question.
+
 Complex language is allowed where it earns precision. Complexity must never be the admission price for understanding why the item matters.
 
-### 8. Tangibility is part of topic quality
+### 8. Tangibility is part of topic quality, but “edge” is broader than application
 Every article should answer, where applicable:
 
 - What is this in plain language?
 - Why is this specifically interesting rather than merely notable?
 - Where is it already tangible?
 - What could someone do, notice, build, test, reinterpret, or anticipate differently because of it?
+- What surprising implication, tension, connection, counterfactual, or better question follows from it?
 - What becomes plausible next if the enabling trend continues?
+
+The collapsed card should choose **one** strong edge rather than listing applications.
 
 ### 9. “New discovery” is an epistemic label, not marketing copy
 Allowed discovery-status labels:
@@ -75,11 +80,13 @@ Allowed discovery-status labels:
 ### 10. Foundations compound; frontier signals refresh
 Durable field vocabulary, historical lessons, and known failure modes should accumulate. Volatile capabilities, weak signals, current results, and forecasts should be timestamped and periodically refreshed.
 
-### 11. Git is enough database for v2
-Markdown and small JSON files remain canonical. Git preserves full research, validation, publication, rejection history, topic diversity, and candidate lineage.
+### 11. Git is enough database for v3
+Markdown and small JSON files remain canonical. Git preserves full research, validation, publication, rejection history, topic diversity, candidate lineage, short-form cards, and the fictional side feed.
 
-### 12. GitHub Pages first; social-platform integration deferred
-The standalone reader is stable, inspectable, and under the user's control. X/Twitter or another feed surface may be added later only if the content loop proves valuable enough to justify the maintenance burden.
+### 12. External social-platform integration remains deferred; an internal fictional side feed is part of the reader
+The standalone reader is stable, inspectable, and under the user's control. X/Twitter or another external publishing surface may be added later only if the content loop proves valuable enough to justify the maintenance burden.
+
+The website may contain a clearly labeled **fictional side feed** (`Unasked / @unasked_notes`) that behaves like someone casually posting things learned from the reports. It is editorial content, not a real social profile, not the owner's voice, and not an engagement-metric simulation.
 
 ### 13. The reader remains final taste authority
 Automation may publish low-stakes curiosity pieces that pass the research protocol, but behavioral feedback must remain inspectable and reversible. It may diversify selection; it must not silently narrow the horizon.
@@ -88,6 +95,13 @@ Automation may publish low-stakes curiosity pieces that pass the research protoc
 Unasked articles are normally LLM-written. Do not disguise that by injecting fake quirks or optimizing detectors. Freeze the validated semantic payload first, draft from that specific material, then perform a bounded local prose audit under `VOICE_AND_AUTHORSHIP.md`. Whole-document “make it human” rewrites are disfavored.
 
 The primary reader's spontaneous conversational style may inform readability preferences, but obvious pasted prompts/work orders and uncertain-source text must not be treated as author voice.
+
+### 15. Short-form surfaces are written separately from the article
+A correct article does not automatically produce a good card or social post.
+
+Feed cards and side-feed posts must be generated from the validated semantic bank with their own constraints in `CONTENT_GRAMMAR.md` and `research/BLURB_AND_SIDE_FEED_RESEARCH_V1.md`.
+
+The card optimizes for immediate understanding and a real reason to continue. The side feed optimizes for one concrete thought worth saying. Neither should read like a paper abstract.
 
 ## Content territory
 
@@ -127,7 +141,7 @@ After 30 validated feed items, a meaningful fraction should produce reactions li
 - “I knew the pieces but not that they connected.”
 - “I would never have searched for this.”
 - “That changes how I interpret something familiar.”
-- “I can see where this becomes useful or consequential.”
+- “That edge is the part I want to think about.”
 - “I want to follow this frontier now.”
 
 If the feed is accurate but mostly produces “interesting, I guess,” the discovery policy failed.
@@ -137,7 +151,8 @@ If the feed is accurate but mostly produces “interesting, I guess,” the disc
 - generic news digest
 - engagement-maximizing recommender
 - public social network
-- automatic social-media posting
+- automatic external social-media posting
+- fake engagement counters or fake social proof
 - one universal taste/interestingness model
 - unsupported novelty claims
 - speculative futures presented as forecasts with false precision
