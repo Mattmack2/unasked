@@ -1,4 +1,4 @@
-# Unasked Design Language v2 — Field Journal
+# Unasked Design Language v3 — Field Journal
 
 ## Direction
 
@@ -17,15 +17,13 @@ The reference image supplied by the owner is inspiration, not a template. We are
 
 ## Why this is current rather than retro cosplay
 
-Recent web/design work has been moving toward tactile, human-crafted and print-referential interfaces as a reaction against frictionless AI-polished sameness. The useful lesson is not “make it vintage.” It is:
+The useful design principle is not “make it vintage.” It is:
 
 > **Give information a physical-feeling hierarchy and provenance without sacrificing web readability.**
 
 The paper feeling must come from substrate, rules, typography, spacing and restrained grain—not from weak contrast.
 
 ## Readability contract
-
-The reader is here for long-form material, so accessibility minima are a floor rather than the target.
 
 - Normal text should comfortably exceed WCAG 2.x's 4.5:1 minimum contrast target.
 - Secondary text may look quieter through size, placement and hierarchy, but must not become washed out.
@@ -74,14 +72,14 @@ The site follows the operating-system theme on first visit. An explicit reader t
 
 ## Typography
 
-No font dependency in v2.
+No font dependency in v3.
 
 - UI / metadata: `ui-monospace, SFMono-Regular, Menlo, Consolas, monospace`
 - Headlines: `Georgia, 'Times New Roman', serif`
 - Long-form: `Georgia, 'Times New Roman', serif`
-- Small functional text may use system sans only when density requires it.
+- Side-feed post text: serif body with mono identity / references
 
-If the feed earns further work, a self-hosted type family can be evaluated later. Do not add a CDN font merely for polish.
+Do not add a CDN font merely for polish.
 
 ## Page anatomy
 
@@ -89,50 +87,80 @@ If the feed earns further work, a self-hosted type family can be evaluated later
 
 A quiet contents / domain index, not a social navigation bar.
 
-- FEED
+- DISPATCHES
 - SAVED
 - domain filters
 - short project statement
 
 ### Center — Dispatches
 
-Feed items read as numbered research dispatches rather than tweets.
+Feed items read as numbered research dispatches rather than social cards.
 
 Each collapsed item exposes:
 
 - folio number;
-- domain;
-- research mode / epistemic label;
+- domain / story grammar / reading time;
 - title;
-- hook;
-- **Plain version**;
-- **Why this is interesting**;
-- **Tangible edge** — one concrete present/future use;
-- why it appeared;
-- reading time and feedback controls.
+- short concrete hook;
+- **PLAIN** — what is happening, with zero assumed field knowledge;
+- **WHY** — the mental-model change;
+- **EDGE** — one sharp implication, tension, connection, counterfactual, use, or unlocked question;
+- evidence/discovery labels;
+- feedback controls.
+
+`WHY THIS APPEARED` remains stored metadata but is no longer required on the normal collapsed reading surface. It is useful for the research system; it is not usually useful enough to compete with the report itself.
 
 The full article expands in place.
 
-### Right rail — Method / legend
+### Right rail — Side feed first, method second
 
-Keep small explanations for:
+The right rail is now useful content rather than mostly documentation.
 
-- what labels mean;
-- current pending research state;
-- two-pass validation;
-- feedback export.
+At the top:
 
-This is the analogue of editorial marginalia, not a dashboard.
+```text
+SIDE FEED
+Unasked  @unasked_notes
+FICTIONAL SIDE FEED
+```
+
+Posts are intentionally tweet-like in behavior, not in visual imitation:
+
+- one thought at a time;
+- casual, concrete language;
+- can be a detail, reaction, quote, question, edge, summary or connection;
+- tiny folio references can jump to the related dispatch;
+- no fake likes, replies, follower counts, avatars of fake people, blue-brand clone, or engagement chrome.
+
+The side feed should still look like Unasked: warm paper, ink, dotted rules, serif post text, mono metadata.
+
+Below it, method/evidence information moves into a compact disclosure. The method remains available without owning the most valuable sidebar space.
+
+### Narrow screens
+
+At widths where the right rail disappears, render the same side-feed data as a horizontally scrollable strip above the main dispatch list.
+
+This is important: the side feed is content, so it should not vanish simply because the reader is on a phone or narrower browser.
+
+## Card hierarchy
+
+The collapsed card is an entrance, not an abstract.
+
+The visual hierarchy should reinforce the short-form content contract:
+
+1. title;
+2. hook;
+3. PLAIN / WHY / EDGE rows;
+4. epistemic labels;
+5. controls.
+
+The quick rows should be easy to scan. `EDGE` receives slightly stronger visual emphasis because it is where the research makes its most interesting move beyond the finding, but it should not become a marketing callout.
 
 ## Article hierarchy
 
-Default article modules are not rigid. Choose the grammar that fits the topic, but the reader should almost always get these three things early:
+Article structure is flexible. The reader should get the core idea early, but `The simple version`, `Why this is interesting`, and `Where it becomes tangible` are optional tools rather than fixed headings.
 
-1. **The simple version** — a non-specialist explanation that does not patronize.
-2. **Why this is interesting** — why the fact/mechanism changes a mental model or opens a useful question.
-3. **The tangible edge** — where it is already used, what it now makes possible, or how it could change a real decision/practice.
-
-Then go deep.
+Then go as deep as the evidence earns.
 
 ## Motion
 
@@ -141,6 +169,7 @@ Minimal:
 - article reveal;
 - underline / rule movement;
 - tiny state changes on save / worth-it;
-- no parallax, particle systems, or decorative scrolling effects in v2.
+- horizontal side-feed scrolling on narrow screens;
+- no parallax, particle systems, or decorative scrolling effects.
 
-The content already supplies novelty. The UI should feel composed, not attention-seeking.
+The content supplies novelty. The UI should feel composed, not attention-seeking.
