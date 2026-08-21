@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-planarian-regenerative-memory",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "LIFE & MEDICINE",
+      "story_grammar": "RECEIVED WISDOM UNDER REVIEW",
+      "evidence_status": "CONTESTED",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "memory persistence through planarian brain regeneration",
+      "bridge_fields": ["regenerative biology", "comparative neuroscience", "learning theory", "behavioral replication", "peripheral nervous system"],
+      "key_vocabulary": ["savings paradigm", "conditioned place preference", "pseudoconditioning", "cephalic ganglia", "ventral nerve cords", "non-associative learning"],
+      "turn2_verdict": "SURVIVES_WITH_MAJOR_CORRECTIONS",
+      "published_at": "2026-08-21T13:45:00Z"
+    },
+    {
       "id": "2026-08-21-miyake-events",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "HUMAN PAST",
