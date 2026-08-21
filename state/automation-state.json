@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "status": "TURN1_READY",
-  "pending_report": "research/full/2026-08-21-miyake-events-turn1.md",
-  "pending_candidate_id": "C-EV-007",
-  "pending_question": "Can rare solar-particle events provide exact-year archaeological tie points, and does tree physiology limit how precisely a cosmogenic event appears in a tree ring?",
-  "last_published": "2026-08-21-evolutionary-simulation-worlds",
-  "note": "The user-directed evolutionary-simulation side report completed Turn 2 with SURVIVES_WITH_CORRECTIONS and was published. The normal Unasked pipeline remains frozen on Miyake-events Turn 1; its next normal step is Turn 2. The hourly schedule remains disabled for manual operation. This research does not authorize any OWR implementation or roadmap change."
+  "status": "WAITING_FOR_TURN1",
+  "pending_report": null,
+  "pending_candidate_id": null,
+  "pending_question": null,
+  "last_published": "2026-08-21-miyake-events",
+  "note": "Manual Turn 2 for C-EV-007 completed with SURVIVES_WITH_CORRECTIONS and was published. The normal Unasked pipeline is ready for a new Turn 1 on the next invocation. The hourly schedule remains disabled for manual operation."
 }
