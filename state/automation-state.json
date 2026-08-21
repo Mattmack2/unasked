@@ -1,9 +1,9 @@
 {
   "version": 2,
   "status": "TURN1_READY",
-  "pending_report": "research/full/2026-08-21-shipping-sulfur-clouds-turn1.md",
-  "pending_candidate_id": "C-EV-004",
-  "pending_question": "Did the 2020 cleanup of sulfur pollution from ships measurably darken marine clouds and unmask greenhouse warming—and what does that real-world experiment actually tell us about aerosols, clean-air policy, and marine cloud brightening?",
-  "last_published": "2026-08-21-microchimerism",
-  "note": "Microchimerism Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. A new Turn 1 is frozen on the IMO2020 shipping-sulfur aerosol-cloud natural experiment; the next invocation must perform Turn 2 before publication or generating another candidate."
+  "pending_report": "research/full/2026-08-21-missing-lead-paradox-turn1.md",
+  "pending_candidate_id": "C-VT-005",
+  "pending_question": "Why is lead in Earth's accessible rocks more radiogenic than a simple chondritic-Earth history predicts, and could pressure-stabilized lead sulfides be hiding the complementary ancient reservoir deep in the mantle?",
+  "last_published": "2026-08-21-shipping-sulfur-clouds",
+  "note": "IMO2020 sulfur-cloud Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. A new Vocabulary Trapdoor Turn 1 is frozen on the missing lead paradox and the 2026 pressure-stabilized Pb-S reservoir mechanism; the next invocation must perform Turn 2 before publication or generating another candidate."
 }
