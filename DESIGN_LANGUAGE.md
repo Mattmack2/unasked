@@ -6,7 +6,7 @@ Unasked should feel like a **research field journal that happens to be alive in 
 
 The reference image supplied by the owner is inspiration, not a template. We are borrowing the broader editorial family:
 
-- warm off-white / paper substrate rather than white or dark SaaS chrome;
+- warm off-white / paper substrate rather than white or SaaS chrome;
 - typography-led hierarchy;
 - mono / typewriter labels for metadata and navigation;
 - serif reading text for long-form material;
@@ -17,26 +17,60 @@ The reference image supplied by the owner is inspiration, not a template. We are
 
 ## Why this is current rather than retro cosplay
 
-Recent web/design work has been moving toward tactile, human-crafted and print-referential interfaces as a reaction against frictionless AI-polished sameness. Framer's 2025 trend survey highlights retro texture and overtly human-crafted imperfection; Lynn Fisher's 2025 refresh deliberately uses subtle paper texture and paperback-book chapter structure; recent editorial portfolio work continues to use warm paper, vintage texture and typography-led grids.
-
-The useful lesson is not “make it vintage.” It is:
+Recent web/design work has been moving toward tactile, human-crafted and print-referential interfaces as a reaction against frictionless AI-polished sameness. The useful lesson is not “make it vintage.” It is:
 
 > **Give information a physical-feeling hierarchy and provenance without sacrificing web readability.**
 
+The paper feeling must come from substrate, rules, typography, spacing and restrained grain—not from weak contrast.
+
+## Readability contract
+
+The reader is here for long-form material, so accessibility minima are a floor rather than the target.
+
+- Normal text should comfortably exceed WCAG 2.x's 4.5:1 minimum contrast target.
+- Secondary text may look quieter through size, placement and hierarchy, but must not become washed out.
+- Texture must sit behind the page rather than compete with glyph edges.
+- Long-form body copy should remain approximately 17–18px at desktop reading widths with generous line height.
+- Metadata may be smaller, but repeated 8–9px muted text is not acceptable as the default reading language.
+- Light and dark modes preserve the same editorial hierarchy; dark mode is not a separate neon/SaaS skin.
+
+Current palette contrast against its base background is intentionally strong: light-mode secondary text is roughly 8:1; dark-mode secondary text roughly 9.8:1. The red annotation accents are above 6:1 in both modes.
+
 ## Palette
 
+### Light — warm paper
+
 ```text
-paper        #ebe4d3
-paper-deep   #e2d7c1
-ink          #201b15
-ink-soft     #5f574d
-rule         #bdb09a
-accent       #a33a2f   (annotation / section number / discovery signal)
-wash         #f3edde
+paper        #f0eadc
+paper-deep   #e6dcc8
+ink          #1c1813
+ink-body     #2e2923
+ink-soft     #4c443a
+rule         #aa9d87
+rule-dark    #746958
+accent       #9a342b
+wash         #f7f2e7
 black-mark   #1c1813
 ```
 
-The owner reference image is approximately in the same warm ecru family; we use a slightly more editorial/red-annotation direction so the result does not become a copy.
+### Dark — warm charcoal
+
+```text
+paper        #171512
+paper-deep   #211e1a
+ink          #f2eadc
+ink-body     #ddd3c4
+ink-soft     #c7bdaf
+rule         #655d52
+rule-dark    #8f8578
+accent       #e27863
+wash         #1c1916
+black-mark   #f0e7d8
+```
+
+Do not use pure black/pure white by default. Dark mode should feel like ink reversed onto a warm archival charcoal sheet, with softened ivory text and the same oxide-red annotation language.
+
+The site follows the operating-system theme on first visit. An explicit reader toggle overrides that choice and persists locally.
 
 ## Typography
 
