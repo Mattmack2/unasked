@@ -1,9 +1,9 @@
 {
   "version": 2,
   "status": "TURN1_READY",
-  "pending_report": "research/full/2026-08-21-air-monitor-biodiversity-turn1.md",
-  "pending_candidate_id": "C-BR-007",
-  "pending_question": "Can existing air-pollution and atmospheric-monitoring networks double as large-scale biodiversity observatories—and can their stored filters recover ecological histories that nobody intended to record?",
-  "last_published": "2026-08-21-llm-airgap-containment",
-  "note": "The normal Unasked pipeline remains deliberately frozen on airborne-eDNA Turn 1 and the hourly schedule remains disabled. The user-directed LLM/sandbox/air-gap containment side report completed Turn 2 with SURVIVES_WITH_CORRECTIONS and was published."
+  "pending_report": "research/full/2026-08-21-miyake-events-turn1.md",
+  "pending_candidate_id": "C-EV-007",
+  "pending_question": "Can rare solar-particle events provide exact-year archaeological tie points, and does tree physiology limit how precisely a cosmogenic event appears in a tree ring?",
+  "last_published": "2026-08-21-air-monitor-biodiversity",
+  "note": "Airborne-eDNA Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. The next normal Turn 1 is frozen on Miyake events as archaeological year-stamps, with 2026 tree-physiology work as the main adversarial frontier. The hourly schedule remains disabled for manual operation."
 }
