@@ -2,6 +2,29 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-deep-time-enamel-proteins",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "CAPABILITY SHIFT",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "memory-blind / outside recent active research neighborhoods",
+      "bridge_fields": [
+        "palaeoproteomics",
+        "paleoanthropology",
+        "mass spectrometry",
+        "molecular evolution"
+      ],
+      "key_vocabulary": [
+        "palaeoproteomics",
+        "enamel proteome",
+        "diagenesis",
+        "micro-destructive acid etching"
+      ],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T09:31:00Z"
+    },
+    {
       "id": "2026-08-21-undiscovered-public-knowledge",
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "SOCIETY & INSTITUTIONS",
