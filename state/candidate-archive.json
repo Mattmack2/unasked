@@ -72,22 +72,25 @@
     },
     {
       "id": "C-BR-007",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "BRIDGE",
       "primary_domain": "EARTH & ENVIRONMENT",
       "story_grammar": "CAPABILITY_SHIFT",
       "question": "Can existing air-pollution and atmospheric-monitoring networks double as large-scale biodiversity observatories—and can their stored filters recover ecological histories that nobody intended to record?",
-      "why_preserved": "A strong infrastructure bridge with direct national-scale and multi-decade evidence. The central uncertainty is not whether air contains biodiversity DNA, but how broadly routine filters and archives can support comparable ecological inference across networks.",
-      "turn1_artifact": "research/full/2026-08-21-air-monitor-biodiversity-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-air-monitor-biodiversity-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-air-monitor-biodiversity-turn2.md",
+      "published_article": "docs/articles/2026-08-21-air-monitor-biodiversity.md",
+      "turn2_note": "Survived after separating strong live-network reuse from a much less general archive claim, treating airborne eDNA as complementary rather than census-quality, and adding taxonomic-validation, storage, transport and human-genomic-bycatch constraints."
     },
     {
       "id": "C-EV-007",
-      "status": "dormant",
+      "status": "selected_turn1_frozen",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "HUMAN PAST",
       "story_grammar": "CAPABILITY_SHIFT",
       "question": "Can rare solar-particle events provide exact-year archaeological tie points, and does tree physiology limit how precisely a cosmogenic event appears in a tree ring?",
-      "why_preserved": "Miyake events can anchor floating tree-ring chronologies to calendar time, while 2024–26 work shows that carbon-cycle and tree-physiology effects complicate naive one-spike/one-year interpretation. Strong future Turn 1 candidate."
+      "why_preserved": "Miyake events have already anchored archaeological and geologic chronologies to calendar years, while 2024–26 work shows that carbon-cycle and tree-physiology effects complicate naive one-spike/one-year interpretation. Turn 1 is frozen for adversarial validation.",
+      "turn1_artifact": "research/full/2026-08-21-miyake-events-turn1.md"
     },
     {
       "id": "C-FD-004",
