@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-planarian-regenerative-memory",
+    "folio": 13,
+    "published_at": "2026-08-21T13:45:00Z",
+    "title": "The worm grew a new brain. Did the memory survive?",
+    "hook": "Planarians can rebuild a brain after decapitation. Some experiments find that pre-amputation experience still biases the regenerated animal—but the strongest current result uses six trained worms, and the surviving tissue still contains nerve cords.",
+    "simple": "A posterior fragment loses the original cephalic brain but keeps ventral nerve cords and peripheral circuitry. Modern studies report post-regeneration behavioral effects, while a major 2026 replication effort failed to establish classical conditioning at all.",
+    "why_interesting": "The key question is no longer whether a mystical memory lives outside the brain. Regeneration lets researchers progressively remove candidate information-bearing tissues and ask how little of an old nervous system must survive for experience to matter to a new brain.",
+    "tangible_edge": "The 2013 study found only a savings effect after refresher training; a 2026 peer-reviewed sucrose-place-preference result used n=6 regenerated trained worms with tail p=0.048; a separate Harvard preprint found no classical conditioning across several protocols and automated scoring.",
+    "why_here": "Memory-blind received-wisdom check: a famous claim becomes more scientifically interesting when the experiment is reframed around assay reliability and causal localization of the surviving state.",
+    "lane": "MEMORY-BLIND",
+    "primary_domain": "LIFE & MEDICINE",
+    "story_grammar": "RECEIVED WISDOM UNDER REVIEW",
+    "evidence_status": "CONTESTED",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 7,
+    "confidence": "moderate that some planarian training paradigms can leave post-regeneration behavioral effects; low-to-moderate that current evidence establishes associative memory through regeneration; very low on any specific non-neural storage mechanism",
+    "article": "articles/2026-08-21-planarian-regenerative-memory.md",
+    "tags": ["planaria", "memory", "regeneration", "learning", "nervous system", "replication", "conditioned place preference"]
+  },
+  {
     "id": "2026-08-21-miyake-events",
     "folio": 12,
     "published_at": "2026-08-21T13:13:00Z",
