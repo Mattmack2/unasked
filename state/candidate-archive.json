@@ -60,13 +60,15 @@
     },
     {
       "id": "C-BR-006",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "BRIDGE",
       "primary_domain": "SPORT & COMPETITION",
       "story_grammar": "HIDDEN MECHANISM",
       "question": "When a basketball player starts making shots, how much does the defense change the environment of the next shot—and does that mean the classic hot-hand question has partly been measured as though an adaptive opponent were not there?",
-      "why_preserved": "Adds a new feed domain and connects a famous statistical controversy to endogenous opponent response. A 2026 player-tracking study finds asymmetric, short-memory defensive adaptation, but Turn 2 must separate behavioral response from proof of the hot hand and challenge the limited 2015–16 dataset.",
-      "turn1_artifact": "research/full/2026-08-21-hot-hand-defense-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-hot-hand-defense-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-hot-hand-defense-turn2.md",
+      "published_article": "docs/articles/2026-08-21-hot-hand-defense.md",
+      "turn2_note": "Survived after correcting the immediate make/miss interpretation to relative asymmetry, demoting the three-to-five-shot memory claim to an interpretation, localizing the strongest 2026 result to the closest defender, and separating defensive adaptation from the still-unsettled latent hot-hand effect."
     },
     {
       "id": "C-FD-004",
