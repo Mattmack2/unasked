@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-ai-subscription-shadow-market",
+      "lane": "SIDE REPORT",
+      "primary_domain": "COMPUTATION & TECHNOLOGY",
+      "story_grammar": "HIDDEN MECHANISM",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "NEW SYNTHESIS",
+      "seed_neighborhood": "user-directed investigation of subscription-to-API relays",
+      "bridge_fields": ["AI product economics", "API gateways", "fraud prevention", "developer platforms", "subscription design"],
+      "key_vocabulary": ["subscription-to-API", "API relay", "account pool", "identity-bound portability", "programmable entitlement", "entitlement arbitrage"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T10:52:00Z"
+    },
+    {
       "id": "2026-08-21-hot-hand-defense",
       "lane": "BRIDGE",
       "primary_domain": "SPORT & COMPETITION",
