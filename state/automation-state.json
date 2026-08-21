@@ -1,9 +1,9 @@
 {
   "version": 2,
   "status": "TURN1_READY",
-  "pending_report": "research/full/2026-08-21-missing-lead-paradox-turn1.md",
-  "pending_candidate_id": "C-VT-005",
-  "pending_question": "Why is lead in Earth's accessible rocks more radiogenic than a simple chondritic-Earth history predicts, and could pressure-stabilized lead sulfides be hiding the complementary ancient reservoir deep in the mantle?",
-  "last_published": "2026-08-21-shipping-sulfur-clouds",
-  "note": "IMO2020 sulfur-cloud Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. A new Vocabulary Trapdoor Turn 1 is frozen on the missing lead paradox and the 2026 pressure-stabilized Pb-S reservoir mechanism; the next invocation must perform Turn 2 before publication or generating another candidate."
+  "pending_report": "research/full/2026-08-21-hot-hand-defense-turn1.md",
+  "pending_candidate_id": "C-BR-006",
+  "pending_question": "When a basketball player starts making shots, how much does the defense change the environment of the next shot—and does that mean the classic hot-hand question has partly been measured as though an adaptive opponent were not there?",
+  "last_published": "2026-08-21-missing-lead-paradox",
+  "note": "Missing lead Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published under the concise evidence-density voice. A new BRIDGE Turn 1 is frozen on hot-hand defensive adaptation; the next invocation must perform Turn 2 before publication or generating another candidate."
 }
