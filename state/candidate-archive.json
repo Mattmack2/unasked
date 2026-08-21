@@ -9,11 +9,9 @@
       "primary_domain": "HUMAN PAST",
       "story_grammar": "CAPABILITY SHIFT",
       "question": "Are ancient tooth-enamel proteins becoming a practical molecular archive for periods where recoverable DNA is usually gone, and what new historical questions does that unlock?",
-      "why_preserved": "Strong non-tech capability discontinuity with current primary evidence and concrete downstream use.",
       "turn1_artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn2.md",
-      "published_article": "docs/articles/2026-08-21-deep-time-enamel-proteins.md",
-      "turn2_note": "Survived after replacing the universal DNA-age framing with preservation regimes, adding contamination/conservation limits, narrowing H. erectus introgression language, and demoting persistent molecular optionality from discovery candidate to bounded archival principle."
+      "published_article": "docs/articles/2026-08-21-deep-time-enamel-proteins.md"
     },
     {
       "id": "C-MB-002",
@@ -22,48 +20,100 @@
       "primary_domain": "CULTURE & CRAFT",
       "story_grammar": "CAPABILITY SHIFT",
       "question": "Can a smell meaningfully be preserved as cultural heritage—and if the physical source or living practice disappears, what exactly can an archive save?",
-      "why_preserved": "Very far from the recent research neighborhood; mature unfamiliar vocabulary plus a current 2026 method frontier, museum practice, policy consequence, and a strong authenticity problem.",
       "turn1_artifact": "research/full/2026-08-21-olfactory-heritage-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-olfactory-heritage-turn2.md",
-      "published_article": "docs/articles/2026-08-21-olfactory-heritage.md",
-      "turn2_note": "Survived after narrowing the perfume reproduction claim, balancing cross-cultural perception, rejecting novelty for the temporal-version idea, and reframing scent archives as sample plus method, provenance, context, and explicit temporal target."
+      "published_article": "docs/articles/2026-08-21-olfactory-heritage.md"
     },
     {
       "id": "C-MB-003",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "MEMORY-BLIND",
       "primary_domain": "LIFE & MEDICINE",
       "story_grammar": "HIDDEN MECHANISM",
       "question": "Does pregnancy leave long-lived genetically distinct cells in both mother and child, and what—if anything—does that change about how biology defines an individual?",
-      "why_preserved": "Very strong mental-model delta, mature evidence for bidirectional persistence, an unusually good immunology genealogy, and an active rare-cell detection frontier. The function of the cells remains sufficiently uncertain to make Turn 2 genuinely adversarial.",
-      "turn1_artifact": "research/full/2026-08-21-microchimerism-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-microchimerism-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-microchimerism-turn2.md",
+      "published_article": "docs/articles/2026-08-21-microchimerism.md",
+      "turn2_note": "Survived after separating presence from function, bounding male-brain source attribution, replacing the permanent-scrapbook metaphor with mouse evidence for turnover, and keeping evolutionary conflict as theory rather than human fact."
     },
     {
-      "id": "C-EV-003",
-      "status": "dormant",
+      "id": "C-EV-004",
+      "status": "selected_turn1_frozen",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "EARTH & ENVIRONMENT",
       "story_grammar": "HIDDEN MECHANISM",
-      "question": "Did the 2020 cleanup of sulfur pollution from ship fuel unintentionally darken some marine clouds, alter lightning, and unmask part of greenhouse warming?",
-      "why_preserved": "Excellent real-world intervention with a clean-air/climate tradeoff and multiple observational studies. Needs careful treatment of disputed forcing magnitude and should not frame pollution as beneficial overall."
+      "question": "Did the 2020 cleanup of sulfur pollution from ships measurably darken marine clouds and unmask greenhouse warming—and what does that experiment tell us about aerosols and marine cloud brightening?",
+      "why_preserved": "Strong real-world perturbation with observed ship-track, cloud-microphysical and lightning responses; global temperature attribution remains an explicit Turn 2 target.",
+      "turn1_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn1.md"
     },
     {
-      "id": "C-BR-003",
+      "id": "C-BR-004",
       "status": "dormant",
       "lane": "BRIDGE",
       "primary_domain": "SPORT & COMPETITION",
       "story_grammar": "HIDDEN MECHANISM",
-      "question": "Is part of the hot-hand debate actually an opponent-response problem, where defenders react to recent makes and change the probability of the next shot?",
-      "why_preserved": "A 2026 NBA player-tracking study finds defenders tighten coverage after made shots, linking sports streaks to endogenous feedback and belief updating. Strong bridge, but the broader hot-hand literature is already widely discussed."
+      "question": "Is part of the hot-hand debate actually an opponent-response problem, where defenders react to recent makes and alter the probability of the next shot?",
+      "why_preserved": "Links streak statistics to endogenous strategic feedback; a current player-tracking route may separate shooter state from opponent response."
     },
     {
-      "id": "C-VT-003",
+      "id": "C-FD-004",
+      "status": "dormant",
+      "lane": "FAILED DREAM",
+      "primary_domain": "SOCIETY & INSTITUTIONS",
+      "story_grammar": "FAILED DREAM REVIVAL",
+      "question": "Why are tontine-like longevity pools returning after centuries of stigma?",
+      "why_preserved": "Clear old-design/new-governance and administration story; must stay separate from personal financial advice."
+    },
+    {
+      "id": "C-VT-004",
       "status": "dormant",
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "PHYSICAL WORLD & SPACE",
       "story_grammar": "HIDDEN MECHANISM",
-      "question": "What is the geochemical 'missing lead paradox,' and could high-pressure minerals hide a reservoir of Earth's original lead deep in the mantle?",
-      "why_preserved": "A mature planetary puzzle acquired a concrete 2026 pressure-stabilized Pb-S mechanism. Potentially excellent deep-Earth reading, but requires unusually careful geochemical explanation to avoid becoming technical trivia."
+      "question": "What is Earth's missing lead paradox, and can high-pressure mantle minerals hide the missing reservoir?",
+      "why_preserved": "Mature geochemical puzzle with a recent pressure-stabilized mechanism; needs a reader-facing consequence beyond technical novelty."
+    },
+    {
+      "id": "C-WS-004",
+      "status": "dormant",
+      "lane": "WEAK SIGNAL",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "CAPABILITY SHIFT",
+      "question": "Are quantitative microscopic tool marks becoming a practical archive of technologies that rarely survive archaeologically?",
+      "why_preserved": "Multiple experimental-microscopy approaches suggest indirect traces can recover everyday technological transitions."
+    },
+    {
+      "id": "C-MB-004",
+      "status": "dormant",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "PHYSICAL WORLD & SPACE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Why do some deep-sea glass sponges build silica structures with optical and mechanical behavior that resembles engineered fibers?",
+      "why_preserved": "Genuinely far from the recent feed and potentially rich in biological materials design, but needs a stronger consequence than biomimicry trivia."
+    },
+    {
+      "id": "C-EV-003",
+      "status": "superseded_by_C-EV-004",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Did the 2020 cleanup of sulfur pollution from ship fuel unintentionally darken some marine clouds, alter lightning, and unmask part of greenhouse warming?"
+    },
+    {
+      "id": "C-BR-003",
+      "status": "superseded_by_C-BR-004",
+      "lane": "BRIDGE",
+      "primary_domain": "SPORT & COMPETITION",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Is part of the hot-hand debate actually an opponent-response problem, where defenders react to recent makes and change the probability of the next shot?"
+    },
+    {
+      "id": "C-VT-003",
+      "status": "superseded_by_C-VT-004",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "PHYSICAL WORLD & SPACE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "What is the geochemical missing lead paradox, and could high-pressure minerals hide a reservoir of Earth's original lead deep in the mantle?"
     },
     {
       "id": "C-FD-003",
@@ -71,17 +121,15 @@
       "lane": "FAILED DREAM",
       "primary_domain": "COMPUTATION & TECHNOLOGY",
       "story_grammar": "FAILED DREAM REVIVAL",
-      "question": "Why are aqueous batteries being revisited after repeatedly losing to higher-energy non-aqueous chemistries?",
-      "why_preserved": "A 2026 perspective explicitly reconstructs their historical milestones and modern revival; promising old-blocker/new-selection-environment structure, but too close to ordinary technology forecasting for this blind turn."
+      "question": "Why are aqueous batteries being revisited after repeatedly losing to higher-energy non-aqueous chemistries?"
     },
     {
       "id": "C-WS-003",
-      "status": "dormant",
+      "status": "superseded_by_C-WS-004",
       "lane": "WEAK SIGNAL",
       "primary_domain": "HUMAN PAST",
       "story_grammar": "CAPABILITY SHIFT",
-      "question": "Are microscopic use-wear and butchery marks becoming a quantitative proxy for technologies that barely survive archaeologically, such as the everyday switch from stone to metal tools?",
-      "why_preserved": "Multiple 2026 papers use experimental microscopy and quantitative traces to recover behavior from indirect evidence. Strong method signal, but weaker immediate mental-model delta than microchimerism."
+      "question": "Are microscopic use-wear and butchery marks becoming a quantitative proxy for technologies that barely survive archaeologically?"
     },
     {
       "id": "C-V-002",
@@ -89,8 +137,7 @@
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "CULTURE & CRAFT",
       "story_grammar": "HIDDEN MECHANISM",
-      "question": "How can a full spoken language be compressed into a whistle and remain intelligible over long distances?",
-      "why_preserved": "Whistled speech is a real linguistic register rather than a fixed code; unusually strong mental-model delta about which parts of a speech signal actually carry language. Less current than C-MB-002 but potentially excellent evergreen reading."
+      "question": "How can a full spoken language be compressed into a whistle and remain intelligible over long distances?"
     },
     {
       "id": "C-FD-002",
@@ -98,8 +145,7 @@
       "lane": "FAILED DREAM",
       "primary_domain": "SOCIETY & INSTITUTIONS",
       "story_grammar": "FAILED DREAM REVIVAL",
-      "question": "Why are tontine-like longevity pools being seriously reconsidered after centuries as a financial historical curiosity?",
-      "why_preserved": "2025–2026 actuarial literature explicitly describes modern rediscovery; clear old-design/new-constraint story with tangible retirement consequence. Needs careful separation from product advice."
+      "question": "Why are tontine-like longevity pools being seriously reconsidered after centuries as a financial historical curiosity?"
     },
     {
       "id": "C-W-001",
@@ -107,8 +153,7 @@
       "lane": "WEAK SIGNAL",
       "primary_domain": "SPORT & COMPETITION",
       "story_grammar": "HIDDEN MECHANISM",
-      "question": "Which measurement capability is quietly changing what can be inferred about fatigue, strategy, or coordination in sport before it reaches broadcast-level analysis?",
-      "why_preserved": "Potentially rich but too broad; needs vocabulary graft before promotion."
+      "question": "Which measurement capability is quietly changing what can be inferred about fatigue, strategy, or coordination in sport before it reaches broadcast-level analysis?"
     },
     {
       "id": "C-H-001",
@@ -116,8 +161,7 @@
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "HUMAN PAST",
       "story_grammar": "RECEIVED WISDOM UNDER REVIEW",
-      "question": "Which widely repeated historical story changed materially after historians began treating the hostile source tradition itself as an object of analysis?",
-      "why_preserved": "Promising grammar, but must avoid trivia and find a case with a real historiographical mechanism and source-quality payoff."
+      "question": "Which widely repeated historical story changed materially after historians began treating the hostile source tradition itself as an object of analysis?"
     },
     {
       "id": "C-F-001",
@@ -125,8 +169,7 @@
       "lane": "FAILED DREAM",
       "primary_domain": "EARTH & ENVIRONMENT",
       "story_grammar": "FAILED DREAM REVIVAL",
-      "question": "Which long-dismissed environmental monitoring idea became newly useful because sensing or inference cost collapsed?",
-      "why_preserved": "Good capability-shift structure; requires a specific old blocker and current deployment evidence."
+      "question": "Which long-dismissed environmental monitoring idea became newly useful because sensing or inference cost collapsed?"
     },
     {
       "id": "C-WS-002",
@@ -134,8 +177,7 @@
       "lane": "WEAK SIGNAL",
       "primary_domain": "EARTH & ENVIRONMENT",
       "story_grammar": "CAPABILITY SHIFT",
-      "question": "Is darkness becoming a biodiversity resource that cities and protected areas actively conserve rather than merely an astronomy amenity?",
-      "why_preserved": "Promising ecology/policy shift with tangible urban-design implications; needs a specific threshold or deployment case before promotion."
+      "question": "Is darkness becoming a biodiversity resource that cities and protected areas actively conserve rather than merely an astronomy amenity?"
     }
   ]
 }
