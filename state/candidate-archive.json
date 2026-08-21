@@ -29,6 +29,61 @@
       "turn2_note": "Survived after narrowing the perfume reproduction claim, balancing cross-cultural perception, rejecting novelty for the temporal-version idea, and reframing scent archives as sample plus method, provenance, context, and explicit temporal target."
     },
     {
+      "id": "C-MB-003",
+      "status": "selected_turn1_frozen",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "LIFE & MEDICINE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Does pregnancy leave long-lived genetically distinct cells in both mother and child, and what—if anything—does that change about how biology defines an individual?",
+      "why_preserved": "Very strong mental-model delta, mature evidence for bidirectional persistence, an unusually good immunology genealogy, and an active rare-cell detection frontier. The function of the cells remains sufficiently uncertain to make Turn 2 genuinely adversarial.",
+      "turn1_artifact": "research/full/2026-08-21-microchimerism-turn1.md"
+    },
+    {
+      "id": "C-EV-003",
+      "status": "dormant",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Did the 2020 cleanup of sulfur pollution from ship fuel unintentionally darken some marine clouds, alter lightning, and unmask part of greenhouse warming?",
+      "why_preserved": "Excellent real-world intervention with a clean-air/climate tradeoff and multiple observational studies. Needs careful treatment of disputed forcing magnitude and should not frame pollution as beneficial overall."
+    },
+    {
+      "id": "C-BR-003",
+      "status": "dormant",
+      "lane": "BRIDGE",
+      "primary_domain": "SPORT & COMPETITION",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Is part of the hot-hand debate actually an opponent-response problem, where defenders react to recent makes and change the probability of the next shot?",
+      "why_preserved": "A 2026 NBA player-tracking study finds defenders tighten coverage after made shots, linking sports streaks to endogenous feedback and belief updating. Strong bridge, but the broader hot-hand literature is already widely discussed."
+    },
+    {
+      "id": "C-VT-003",
+      "status": "dormant",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "PHYSICAL WORLD & SPACE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "What is the geochemical 'missing lead paradox,' and could high-pressure minerals hide a reservoir of Earth's original lead deep in the mantle?",
+      "why_preserved": "A mature planetary puzzle acquired a concrete 2026 pressure-stabilized Pb-S mechanism. Potentially excellent deep-Earth reading, but requires unusually careful geochemical explanation to avoid becoming technical trivia."
+    },
+    {
+      "id": "C-FD-003",
+      "status": "dormant",
+      "lane": "FAILED DREAM",
+      "primary_domain": "COMPUTATION & TECHNOLOGY",
+      "story_grammar": "FAILED DREAM REVIVAL",
+      "question": "Why are aqueous batteries being revisited after repeatedly losing to higher-energy non-aqueous chemistries?",
+      "why_preserved": "A 2026 perspective explicitly reconstructs their historical milestones and modern revival; promising old-blocker/new-selection-environment structure, but too close to ordinary technology forecasting for this blind turn."
+    },
+    {
+      "id": "C-WS-003",
+      "status": "dormant",
+      "lane": "WEAK SIGNAL",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "CAPABILITY SHIFT",
+      "question": "Are microscopic use-wear and butchery marks becoming a quantitative proxy for technologies that barely survive archaeologically, such as the everyday switch from stone to metal tools?",
+      "why_preserved": "Multiple 2026 papers use experimental microscopy and quantitative traces to recover behavior from indirect evidence. Strong method signal, but weaker immediate mental-model delta than microchimerism."
+    },
+    {
       "id": "C-V-002",
       "status": "dormant",
       "lane": "VOCABULARY TRAPDOOR",
