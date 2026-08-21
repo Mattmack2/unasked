@@ -1,5 +1,6 @@
 const STORAGE_KEY = 'unasked-feedback-v2';
 const THEME_KEY = 'unasked-theme';
+const REQUEST_VERSION = Date.now().toString();
 const themeButton = document.querySelector('#theme-toggle');
 const themeColor = document.querySelector('meta[name="theme-color"]');
 const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
@@ -39,6 +40,18 @@ const feed = document.querySelector('#feed');
 const empty = document.querySelector('#empty');
 const domainsBox = document.querySelector('#domain-filter');
 
+function freshUrl(path){
+  const url = new URL(path, window.location.href);
+  url.searchParams.set('v', REQUEST_VERSION);
+  return url.toString();
+}
+async function fetchFresh(path){
+  return fetch(freshUrl(path), {cache:'no-store'});
+}
+function activateDispatches(){
+  state.view = 'all';
+  document.querySelectorAll('.index-row').forEach(x=>x.classList.toggle('active', x.dataset.view==='all'));
+}
 function saveFeedback(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(state.feedback)); }
 function esc(s=''){ return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m])); }
 function inline(s=''){
@@ -122,11 +135,14 @@ async function openArticle(cardEl,item){
   const btn=cardEl.querySelector('[data-action="open"]');
   if(box.dataset.loaded!=='1'){
     try{
-      const r=await fetch(item.article);
+      const r=await fetchFresh(item.article);
       if(!r.ok) throw new Error(r.status);
       box.innerHTML=markdown(await r.text());
       box.dataset.loaded='1';
-    }catch(e){ box.innerHTML='<p class="loading">FIELD NOTE COULD NOT BE LOADED.</p>'; }
+    }catch(e){
+      console.error('Unasked article load failed', item.article, e);
+      box.innerHTML='<p class="loading">FIELD NOTE COULD NOT BE LOADED. REFRESH THE PAGE AND TRY AGAIN.</p>';
+    }
   }
   const now=box.classList.toggle('opened');
   btn.textContent=now?'CLOSE FIELD NOTE ↑':'OPEN FIELD NOTE ↓';
@@ -149,7 +165,10 @@ document.querySelectorAll('.index-row').forEach(btn=>btn.addEventListener('click
 }));
 domainsBox.addEventListener('click',e=>{
   const btn=e.target.closest('[data-domain]'); if(!btn) return;
-  state.domain=btn.dataset.domain; renderDomains(); render();
+  activateDispatches();
+  state.domain=btn.dataset.domain;
+  renderDomains();
+  render();
 });
 document.querySelector('#surprise').addEventListener('click',()=>{
   const pool=availableItems(); if(!pool.length) return;
@@ -163,9 +182,12 @@ document.querySelector('#export-feedback').addEventListener('click',()=>{
 });
 (async()=>{
   try{
-    const r=await fetch('feed.json'); if(!r.ok) throw new Error(r.status);
+    const r=await fetchFresh('feed.json'); if(!r.ok) throw new Error(r.status);
     state.items=await r.json();
     state.items.sort((a,b)=>String(b.published_at).localeCompare(String(a.published_at)));
     renderDomains(); render();
-  }catch(e){ feed.innerHTML='<div class="empty">The journal index could not be loaded.</div>'; }
+  }catch(e){
+    console.error('Unasked feed load failed', e);
+    feed.innerHTML='<div class="empty">The journal index could not be loaded. Refresh the page and try again.</div>';
+  }
 })();
