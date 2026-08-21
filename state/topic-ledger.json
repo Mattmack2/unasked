@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-shipping-sulfur-clouds",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "HIDDEN MECHANISM",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "aerosol-cloud natural experiment",
+      "bridge_fields": ["atmospheric chemistry", "cloud microphysics", "climate forcing", "air-quality policy"],
+      "key_vocabulary": ["ship track", "Twomey effect", "aerosol effective radiative forcing", "aerosol masking", "marine cloud brightening"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T10:18:00Z"
+    },
+    {
       "id": "2026-08-21-microchimerism",
       "lane": "MEMORY-BLIND",
       "primary_domain": "LIFE & MEDICINE",
