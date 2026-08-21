@@ -7,7 +7,7 @@
       "status": "published_turn2_survives_with_corrections",
       "lane": "MEMORY-BLIND",
       "primary_domain": "HUMAN PAST",
-      "story_grammar": "CAPABILITY SHIFT",
+      "story_grammar": "CAPABILITY_SHIFT",
       "question": "Are ancient tooth-enamel proteins becoming a practical molecular archive for periods where recoverable DNA is usually gone, and what new historical questions does that unlock?",
       "turn1_artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn2.md",
@@ -84,13 +84,15 @@
     },
     {
       "id": "C-EV-007",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "HUMAN PAST",
       "story_grammar": "CAPABILITY_SHIFT",
       "question": "Can rare solar-particle events provide exact-year archaeological tie points, and does tree physiology limit how precisely a cosmogenic event appears in a tree ring?",
-      "why_preserved": "Miyake events have already anchored archaeological and geologic chronologies to calendar years, while 2024–26 work shows that carbon-cycle and tree-physiology effects complicate naive one-spike/one-year interpretation. Turn 1 is frozen for adversarial validation.",
-      "turn1_artifact": "research/full/2026-08-21-miyake-events-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-miyake-events-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-miyake-events-turn2.md",
+      "published_article": "docs/articles/2026-08-21-miyake-events.md",
+      "turn2_note": "Survived after moving exactness from the spike itself to the full synchronization chain; validating L'Anse, Changbaishan and Dispilio against multi-sample/crossdating controls; promoting the prolonged ca. 660 BCE event as a counterexample to one-spike/one-year thinking; and strengthening the physiology correction with empirical Larix/Quercus offsets and stored-carbon evidence."
     },
     {
       "id": "C-FD-004",
