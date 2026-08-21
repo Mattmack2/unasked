@@ -1,0 +1,128 @@
+[
+  {
+    "id": "side-20260821-018",
+    "posted_at": "2026-08-21T13:50:00Z",
+    "mode": "connection",
+    "text": "Three reports now have the same weird theme: old material can become a new instrument after the measurement technology changes. Teeth, tree rings, archived air filters. The past keeps getting new sensors.",
+    "report_ids": ["2026-08-21-deep-time-enamel-proteins", "2026-08-21-miyake-events", "2026-08-21-air-monitor-biodiversity"]
+  },
+  {
+    "id": "side-20260821-017",
+    "posted_at": "2026-08-21T13:47:00Z",
+    "mode": "reaction",
+    "text": "A tree can be bad at recording a solar storm and still be good enough to date a Viking axe cut to a calendar year. Measurement and synchronization are different jobs. That distinction is doing a lot of work here.",
+    "report_ids": ["2026-08-21-miyake-events"]
+  },
+  {
+    "id": "side-20260821-016",
+    "posted_at": "2026-08-21T13:44:00Z",
+    "mode": "detail",
+    "text": "Three separate pieces of worked wood at L’Anse aux Meadows all land on 1021 CE. Not ‘Vikings arrived in 1021’ — just a very hard date for Norse activity. Still wild.",
+    "report_ids": ["2026-08-21-miyake-events"]
+  },
+  {
+    "id": "side-20260821-015",
+    "posted_at": "2026-08-21T13:40:00Z",
+    "mode": "edge",
+    "text": "The OWR evolution idea gets much better once the question becomes: if I delete the mutation that saved them and rewind, how often does evolution find another way out?",
+    "report_ids": ["2026-08-21-evolutionary-simulation-worlds"]
+  },
+  {
+    "id": "side-20260821-014",
+    "posted_at": "2026-08-21T13:37:00Z",
+    "mode": "connection",
+    "text": "Fun connection: the evolution sim and the hot-hand piece have the same shape. Success changes the environment, which changes what succeeds next.",
+    "report_ids": ["2026-08-21-evolutionary-simulation-worlds", "2026-08-21-hot-hand-defense"]
+  },
+  {
+    "id": "side-20260821-013",
+    "posted_at": "2026-08-21T13:34:00Z",
+    "mode": "reaction",
+    "text": "There are air-pollution filters sitting in archives that may also be old biodiversity samples. We built one sensor network and accidentally collected data for a second science.",
+    "report_ids": ["2026-08-21-air-monitor-biodiversity"]
+  },
+  {
+    "id": "side-20260821-012",
+    "posted_at": "2026-08-21T13:31:00Z",
+    "mode": "detail",
+    "text": "Small governance wrinkle: deep sequencing of air can pick up human DNA too. A biodiversity observatory can quietly become a people-sensing system.",
+    "report_ids": ["2026-08-21-air-monitor-biodiversity"]
+  },
+  {
+    "id": "side-20260821-011",
+    "posted_at": "2026-08-21T13:28:00Z",
+    "mode": "reaction",
+    "text": "Faraday-cage talk is a little too focused on radio. The computer has to affect something outside the box to be useful. The interesting question is how much information each allowed effect can carry.",
+    "report_ids": ["2026-08-21-llm-airgap-containment"]
+  },
+  {
+    "id": "side-20260821-010",
+    "posted_at": "2026-08-21T13:25:00Z",
+    "mode": "edge",
+    "text": "Perfect AI containment has a boring solution: no network, screen, speakers, removable media, or person reading the output. Congratulations, you built a very expensive rock.",
+    "report_ids": ["2026-08-21-llm-airgap-containment"]
+  },
+  {
+    "id": "side-20260821-009",
+    "posted_at": "2026-08-21T13:22:00Z",
+    "mode": "edge",
+    "text": "The clean line on subscription abuse isn’t third-party software. GitHub supports third-party Copilot apps. The cleaner question is: whose entitlement is paying for whose inference?",
+    "report_ids": ["2026-08-21-ai-subscription-shadow-market"]
+  },
+  {
+    "id": "side-20260821-008",
+    "posted_at": "2026-08-21T13:19:00Z",
+    "mode": "reaction",
+    "text": "If you make three shots in a row and the defense moves closer, your fourth shot is not the same experiment as your first. Sports stats get weird once the opponent is allowed to react.",
+    "report_ids": ["2026-08-21-hot-hand-defense"]
+  },
+  {
+    "id": "side-20260821-007",
+    "posted_at": "2026-08-21T13:16:00Z",
+    "mode": "reaction",
+    "text": "Love this kind of science problem: a 2026 paper may have found somewhere Earth’s ‘missing lead’ could hide, while a 2023 paper argues we may not need as much missing lead in the first place.",
+    "report_ids": ["2026-08-21-missing-lead-paradox"]
+  },
+  {
+    "id": "side-20260821-006",
+    "posted_at": "2026-08-21T13:13:00Z",
+    "mode": "summary",
+    "text": "We cut sulfur from ship fuel and then watched clouds change. Accidental planetary experiment, basically.",
+    "report_ids": ["2026-08-21-shipping-sulfur-clouds"]
+  },
+  {
+    "id": "side-20260821-005",
+    "posted_at": "2026-08-21T13:10:00Z",
+    "mode": "detail",
+    "text": "Visible ship tracks might be the misleading part. One study estimated the obvious white lines were only about 5% of the ship-aerosol cloud effect in that region.",
+    "report_ids": ["2026-08-21-shipping-sulfur-clouds"]
+  },
+  {
+    "id": "side-20260821-004",
+    "posted_at": "2026-08-21T13:07:00Z",
+    "mode": "edge",
+    "text": "Pregnancy can leave another person’s cells in your body for decades. The more interesting question is whether later pregnancies change which of those cell populations get to stay.",
+    "report_ids": ["2026-08-21-microchimerism"]
+  },
+  {
+    "id": "side-20260821-003",
+    "posted_at": "2026-08-21T13:04:00Z",
+    "mode": "question",
+    "text": "Museum smell problem I did not know existed: do you preserve what a 200-year-old object smells like now, or what it smelled like when it was new? Chemistry cannot choose the historical timestamp for you.",
+    "report_ids": ["2026-08-21-olfactory-heritage"]
+  },
+  {
+    "id": "side-20260821-002",
+    "posted_at": "2026-08-21T13:01:00Z",
+    "mode": "detail",
+    "text": "‘Too old for DNA’ does not mean ‘no molecules left.’ Tooth-enamel proteins have pushed useful molecular evidence into fossils millions of years older than the usual ancient-DNA window.",
+    "report_ids": ["2026-08-21-deep-time-enamel-proteins"]
+  },
+  {
+    "id": "side-20260821-001",
+    "posted_at": "2026-08-21T12:58:00Z",
+    "mode": "reaction",
+    "text": "Sometimes the thing nobody knows is not a missing fact. It is two known facts living in different literatures that nobody thought to connect.",
+    "report_ids": ["2026-08-21-undiscovered-public-knowledge"]
+  }
+]
