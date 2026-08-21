@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-evolutionary-simulation-worlds",
+    "folio": 11,
+    "published_at": "2026-08-21T11:44:00Z",
+    "title": "Build the pressure, not the outcome",
+    "hook": "A few hundred evolving agents may be enough to produce adaptive radiation, rescue and ecological feedback if fitness emerges from resource competition instead of being assigned by the simulator.",
+    "simple": "Start with a tiny asexual 2D ecology: two limiting resources, heritable tradeoffs, finite energy, reproduction, mutation and death. Mixed resource competition can create frequency-dependent diversification without a scripted fitness score.",
+    "why_interesting": "OWR's unusual value is not inventing evolution itself. It is checkpointing one population history and replaying the same ancestors under a different pressure, allowing historical contingency to become a causal experiment.",
+    "tangible_edge": "Fork one equilibrated population into gradual versus abrupt deterioration; transplant descendants into the ancestral world; resurrect an extinct lineage; or erase the environment ancestors constructed while keeping descendant genes.",
+    "why_here": "User-directed simulation design report connecting artificial-life research to OWR's existing causal replay and sparse-search machinery, including experiments the current question-first discovery architecture is likely to miss.",
+    "lane": "SIDE REPORT",
+    "primary_domain": "COMPUTATION & TECHNOLOGY",
+    "story_grammar": "CROSS-DOMAIN BRIDGE",
+    "evidence_status": "ESTABLISHED",
+    "discovery_status": "NEW SYNTHESIS",
+    "read_minutes": 14,
+    "confidence": "high on the minimal Darwinian ingredients and resource-driven frequency dependence; moderate on which small substrate will yield the richest OWR regimes; low on any claim of sustained open-ended evolution",
+    "article": "articles/2026-08-21-evolutionary-simulation-worlds.md",
+    "tags": ["artificial life", "evolution", "simulation", "OWR", "adaptive radiation", "evolutionary rescue", "niche construction", "emergence"]
+  },
+  {
     "id": "2026-08-21-air-monitor-biodiversity",
     "folio": 10,
     "published_at": "2026-08-21T11:25:00Z",
