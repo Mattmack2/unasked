@@ -4,13 +4,16 @@
   "candidates": [
     {
       "id": "C-MB-001",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "MEMORY-BLIND",
       "primary_domain": "HUMAN PAST",
       "story_grammar": "CAPABILITY SHIFT",
       "question": "Are ancient tooth-enamel proteins becoming a practical molecular archive for periods where recoverable DNA is usually gone, and what new historical questions does that unlock?",
       "why_preserved": "Strong non-tech capability discontinuity with current primary evidence and concrete downstream use.",
-      "artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn2.md",
+      "published_article": "docs/articles/2026-08-21-deep-time-enamel-proteins.md",
+      "turn2_note": "Survived after replacing the universal DNA-age framing with preservation regimes, adding contamination/conservation limits, narrowing H. erectus introgression language, and demoting persistent molecular optionality from discovery candidate to bounded archival principle."
     },
     {
       "id": "C-W-001",
