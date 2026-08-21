@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-miyake-events",
+    "folio": 12,
+    "published_at": "2026-08-21T13:13:00Z",
+    "title": "A tree can date history more precisely than it records the sky",
+    "hook": "A rare cosmogenic radiocarbon surge can anchor an unknown tree-ring sequence to a calendar year. The surprise is that the same tree may blur the physical event across years because some wood is built from carbon stored earlier.",
+    "simple": "Once a well-characterized radiocarbon event is matched inside a crossdated annual wood sequence, researchers can count rings to a bark edge or other target. That has fixed Norse activity at L'Anse aux Meadows to 1021 CE, the Changbaishan eruption to 946 CE, and a Neolithic Dispilio chronology to absolute years.",
+    "why_interesting": "The method separates synchronization from measurement. A biological proxy can distort the exact timing and amplitude of a physical signal yet preserve a distinctive enough fingerprint to synchronize an annual archive precisely.",
+    "tangible_edge": "The 774 and 993 fingerprints synchronized 44 tree-ring records across five continents, but 2026 work shows larch and oak can peak a year apart, while a 2024 study warns that the ~660 BCE event sprawls across multiple years and should not be used naively as a one-year stamp.",
+    "why_here": "Expectation violation: exact-year archaeology emerges from an imperfect biological recorder because precision is earned by replicated fingerprint matching, dendrochronological crossdating and ring counting rather than by a universally identical spike ring.",
+    "lane": "EXPECTATION VIOLATION",
+    "primary_domain": "HUMAN PAST",
+    "story_grammar": "CAPABILITY SHIFT",
+    "evidence_status": "ESTABLISHED",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 7,
+    "confidence": "high that well-characterized cosmogenic events can anchor suitable tree-ring chronologies to calendar years; high that physiology and atmospheric transport alter signal shape; moderate on how broadly subannual corrections are required across different events and species",
+    "article": "articles/2026-08-21-miyake-events.md",
+    "tags": ["Miyake events", "radiocarbon", "archaeology", "tree rings", "solar storms", "dendrochronology", "cosmogenic isotopes"]
+  },
+  {
     "id": "2026-08-21-evolutionary-simulation-worlds",
     "folio": 11,
     "published_at": "2026-08-21T11:44:00Z",
