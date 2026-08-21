@@ -16,6 +16,34 @@
       "turn2_note": "Survived after replacing the universal DNA-age framing with preservation regimes, adding contamination/conservation limits, narrowing H. erectus introgression language, and demoting persistent molecular optionality from discovery candidate to bounded archival principle."
     },
     {
+      "id": "C-MB-002",
+      "status": "selected_turn1_frozen",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "CULTURE & CRAFT",
+      "story_grammar": "CAPABILITY SHIFT",
+      "question": "Can a smell meaningfully be preserved as cultural heritage—and if the physical source or living practice disappears, what exactly can an archive save?",
+      "why_preserved": "Very far from the recent research neighborhood; mature unfamiliar vocabulary plus a current 2026 method frontier, museum practice, policy consequence, and a strong authenticity problem.",
+      "turn1_artifact": "research/full/2026-08-21-olfactory-heritage-turn1.md"
+    },
+    {
+      "id": "C-V-002",
+      "status": "dormant",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "CULTURE & CRAFT",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "How can a full spoken language be compressed into a whistle and remain intelligible over long distances?",
+      "why_preserved": "Whistled speech is a real linguistic register rather than a fixed code; unusually strong mental-model delta about which parts of a speech signal actually carry language. Less current than C-MB-002 but potentially excellent evergreen reading."
+    },
+    {
+      "id": "C-FD-002",
+      "status": "dormant",
+      "lane": "FAILED DREAM",
+      "primary_domain": "SOCIETY & INSTITUTIONS",
+      "story_grammar": "FAILED DREAM REVIVAL",
+      "question": "Why are tontine-like longevity pools being seriously reconsidered after centuries as a financial historical curiosity?",
+      "why_preserved": "2025–2026 actuarial literature explicitly describes modern rediscovery; clear old-design/new-constraint story with tangible retirement consequence. Needs careful separation from product advice."
+    },
+    {
       "id": "C-W-001",
       "status": "dormant",
       "lane": "WEAK SIGNAL",
@@ -41,6 +69,15 @@
       "story_grammar": "FAILED DREAM REVIVAL",
       "question": "Which long-dismissed environmental monitoring idea became newly useful because sensing or inference cost collapsed?",
       "why_preserved": "Good capability-shift structure; requires a specific old blocker and current deployment evidence."
+    },
+    {
+      "id": "C-WS-002",
+      "status": "dormant",
+      "lane": "WEAK SIGNAL",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "CAPABILITY SHIFT",
+      "question": "Is darkness becoming a biodiversity resource that cities and protected areas actively conserve rather than merely an astronomy amenity?",
+      "why_preserved": "Promising ecology/policy shift with tangible urban-design implications; needs a specific threshold or deployment case before promotion."
     }
   ]
 }
