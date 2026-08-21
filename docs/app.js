@@ -34,11 +34,14 @@ const state = {
   view: 'all',
   domain: 'ALL',
   feedback: JSON.parse(localStorage.getItem(STORAGE_KEY) || JSON.stringify(legacy)),
-  items: []
+  items: [],
+  sidePosts: []
 };
 const feed = document.querySelector('#feed');
 const empty = document.querySelector('#empty');
 const domainsBox = document.querySelector('#domain-filter');
+const sideFeedDesktop = document.querySelector('#side-feed');
+const sideFeedMobile = document.querySelector('#side-feed-mobile');
 
 function freshUrl(path){
   const url = new URL(path, window.location.href);
@@ -96,11 +99,10 @@ function card(item){
     <h2>${esc(item.title)}</h2>
     <p class="hook">${esc(item.hook)}</p>
     <div class="quick-grid">
-      <div class="quick-row"><span class="quick-label">The simple version</span><p>${esc(item.simple||item.hook)}</p></div>
-      <div class="quick-row"><span class="quick-label">Why interesting</span><p>${esc(item.why_interesting||item.why_here)}</p></div>
-      <div class="quick-row"><span class="quick-label">Tangible edge</span><p>${esc(item.tangible_edge||'Open the field note for concrete examples.')}</p></div>
+      <div class="quick-row"><span class="quick-label">PLAIN</span><p>${esc(item.simple||item.hook)}</p></div>
+      <div class="quick-row"><span class="quick-label">WHY</span><p>${esc(item.why_interesting||item.why_here)}</p></div>
+      <div class="quick-row edge"><span class="quick-label">EDGE</span><p>${esc(item.tangible_edge||'Open the field note for the strongest implication.')}</p></div>
     </div>
-    <p class="appeared"><strong>WHY THIS APPEARED /</strong> ${esc(item.why_here)}</p>
     <div class="status-line">
       <span class="status-tag evidence ${tagClass(item.evidence_status)}">${esc(item.evidence_status||'UNCLASSIFIED')}</span>
       <span class="status-tag discovery ${tagClass(item.discovery_status)}">${esc(item.discovery_status||'KNOWN FIELD')}</span>
@@ -130,6 +132,29 @@ function renderDomains(){
   const domains=[...new Set(state.items.map(x=>x.primary_domain||'UNCATEGORIZED'))].sort();
   domainsBox.innerHTML=['ALL',...domains].map((d,i)=>`<button class="domain-button ${state.domain===d?'active':''}" data-domain="${esc(d)}">${String(i+1).padStart(2,'0')} · ${esc(d)}</button>`).join('');
 }
+function displayTime(value){
+  try{
+    return new Intl.DateTimeFormat(undefined,{hour:'numeric',minute:'2-digit'}).format(new Date(value));
+  }catch(_){ return ''; }
+}
+function sidePost(post){
+  const refs=(post.report_ids||[])
+    .map(id=>state.items.find(item=>item.id===id))
+    .filter(Boolean);
+  const refHtml=refs.length
+    ? `<div class="side-post-refs">${refs.map(item=>`<button type="button" data-jump-id="${esc(item.id)}" title="Jump to ${esc(item.title)}">↳ ${String(item.folio).padStart(2,'0')}</button>`).join('')}</div>`
+    : '';
+  return `<article class="side-post mode-${tagClass(post.mode||'note')}">
+    <div class="side-post-meta"><span>@unasked_notes</span><time datetime="${esc(post.posted_at||'')}">${esc(displayTime(post.posted_at))}</time></div>
+    <p>${esc(post.text)}</p>
+    ${refHtml}
+  </article>`;
+}
+function renderSideFeed(){
+  const posts=[...state.sidePosts].sort((a,b)=>String(b.posted_at).localeCompare(String(a.posted_at)));
+  if(sideFeedDesktop) sideFeedDesktop.innerHTML=posts.slice(0,10).map(sidePost).join('') || '<p class="side-feed-empty">No side notes yet.</p>';
+  if(sideFeedMobile) sideFeedMobile.innerHTML=posts.slice(0,12).map(sidePost).join('') || '<p class="side-feed-empty">No side notes yet.</p>';
+}
 async function openArticle(cardEl,item){
   const box=cardEl.querySelector('[data-article]');
   const btn=cardEl.querySelector('[data-action="open"]');
@@ -147,6 +172,20 @@ async function openArticle(cardEl,item){
   const now=box.classList.toggle('opened');
   btn.textContent=now?'CLOSE FIELD NOTE ↑':'OPEN FIELD NOTE ↓';
 }
+function jumpToItem(id){
+  const item=state.items.find(x=>x.id===id); if(!item) return;
+  activateDispatches();
+  state.domain='ALL';
+  renderDomains();
+  render();
+  requestAnimationFrame(()=>{
+    const el=document.querySelector(`[data-id="${CSS.escape(id)}"]`);
+    if(!el) return;
+    el.scrollIntoView({behavior:'smooth',block:'start'});
+    el.classList.add('referenced');
+    setTimeout(()=>el.classList.remove('referenced'),1200);
+  });
+}
 feed.addEventListener('click', async e=>{
   const btn=e.target.closest('button[data-action]'); if(!btn) return;
   const cardEl=btn.closest('.feed-card'); const id=cardEl.dataset.id;
@@ -158,6 +197,10 @@ feed.addEventListener('click', async e=>{
   if(action==='worth'){ fb.worth=!fb.worth; if(fb.worth) fb.miss=false; }
   if(action==='miss'){ fb.miss=!fb.miss; if(fb.miss) fb.worth=false; }
   saveFeedback(); render();
+});
+document.addEventListener('click',e=>{
+  const btn=e.target.closest('[data-jump-id]');
+  if(btn) jumpToItem(btn.dataset.jumpId);
 });
 document.querySelectorAll('.index-row').forEach(btn=>btn.addEventListener('click',()=>{
   document.querySelectorAll('.index-row').forEach(x=>x.classList.remove('active'));
@@ -182,12 +225,24 @@ document.querySelector('#export-feedback').addEventListener('click',()=>{
 });
 (async()=>{
   try{
-    const r=await fetchFresh('feed.json'); if(!r.ok) throw new Error(r.status);
-    state.items=await r.json();
+    const [feedResponse,sideResponse]=await Promise.all([
+      fetchFresh('feed.json'),
+      fetchFresh('side-feed.json').catch(()=>null)
+    ]);
+    if(!feedResponse.ok) throw new Error(feedResponse.status);
+    state.items=await feedResponse.json();
     state.items.sort((a,b)=>String(b.published_at).localeCompare(String(a.published_at)));
-    renderDomains(); render();
+    if(sideResponse?.ok){
+      state.sidePosts=await sideResponse.json();
+    }else if(sideResponse){
+      console.error('Unasked side feed load failed', sideResponse.status);
+    }
+    renderDomains();
+    render();
+    renderSideFeed();
   }catch(e){
     console.error('Unasked feed load failed', e);
     feed.innerHTML='<div class="empty">The journal index could not be loaded. Refresh the page and try again.</div>';
+    renderSideFeed();
   }
 })();
