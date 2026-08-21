@@ -3,8 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <meta name="theme-color" content="#ebe4d3">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f0eadc">
+  <script>
+    try {
+      const savedTheme = localStorage.getItem('unasked-theme');
+      if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
+    } catch (_) {}
+  </script>
   <title>Unasked — Field Journal</title>
   <meta name="description" content="A private field journal for things you did not know to look up.">
   <link rel="stylesheet" href="styles.css">
@@ -52,7 +58,10 @@
             <h1>Things worth knowing<br>before you know the query.</h1>
             <p class="deck">A private horizon scanner. Dense when useful, simple where it counts.</p>
           </div>
-          <button id="surprise" class="black-button">DRAW A RANDOM NOTE</button>
+          <div class="masthead-actions">
+            <button id="theme-toggle" class="theme-button" type="button" aria-pressed="false">DARK MODE</button>
+            <button id="surprise" class="black-button" type="button">DRAW A RANDOM NOTE</button>
+          </div>
         </div>
       </header>
 
