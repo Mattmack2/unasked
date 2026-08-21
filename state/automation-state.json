@@ -1,9 +1,9 @@
 {
   "version": 2,
   "status": "TURN1_READY",
-  "pending_report": "research/full/2026-08-21-hot-hand-defense-turn1.md",
-  "pending_candidate_id": "C-BR-006",
-  "pending_question": "When a basketball player starts making shots, how much does the defense change the environment of the next shot—and does that mean the classic hot-hand question has partly been measured as though an adaptive opponent were not there?",
-  "last_published": "2026-08-21-missing-lead-paradox",
-  "note": "Missing lead Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published under the concise evidence-density voice. A new BRIDGE Turn 1 is frozen on hot-hand defensive adaptation; the next invocation must perform Turn 2 before publication or generating another candidate."
+  "pending_report": "research/full/2026-08-21-air-monitor-biodiversity-turn1.md",
+  "pending_candidate_id": "C-BR-007",
+  "pending_question": "Can existing air-pollution and atmospheric-monitoring networks double as large-scale biodiversity observatories—and can their stored filters recover ecological histories that nobody intended to record?",
+  "last_published": "2026-08-21-hot-hand-defense",
+  "note": "Hot-hand defense Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. A new BRIDGE Turn 1 is frozen on airborne eDNA reuse of air-monitoring infrastructure and archives; the next invocation must perform Turn 2 before publication or generating another candidate."
 }
