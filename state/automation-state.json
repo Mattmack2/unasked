@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "status": "WAITING_FOR_TURN1",
-  "pending_report": null,
-  "pending_candidate_id": null,
-  "pending_question": null,
+  "status": "TURN1_READY",
+  "pending_report": "research/full/2026-08-21-microchimerism-turn1.md",
+  "pending_candidate_id": "C-MB-003",
+  "pending_question": "Does pregnancy leave long-lived genetically distinct cells in both mother and child, and what—if anything—does that change about how biology defines an individual?",
   "last_published": "2026-08-21-olfactory-heritage",
-  "note": "Olfactory heritage Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. Manual mode is waiting for the next Turn 1."
+  "note": "Manual MEMORY-BLIND Turn 1 frozen on pregnancy-associated microchimerism. The next invocation must perform Turn 2 on this report before generating or publishing another candidate."
 }
