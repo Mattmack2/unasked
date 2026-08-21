@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-air-monitor-biodiversity",
+    "folio": 10,
+    "published_at": "2026-08-21T11:25:00Z",
+    "title": "Air-pollution filters can contain a second, unread measurement",
+    "hook": "Air-monitoring networks already collect particles for one purpose. DNA analysis can reveal a second dataset on those same filters, and some archives preserve ecological information decades after collection.",
+    "simple": "A UK national air-quality network produced a broad multi-taxon eDNA signal from routine filters. One Swedish radionuclide archive preserved enough airborne DNA to reconstruct ecological patterns across 34 years.",
+    "why_interesting": "New measurement methods can make old infrastructure scientifically useful in ways its designers never planned. The opportunity is strongest when the physical samples were retained, standardized and well preserved.",
+    "tangible_edge": "The UK study recovered 1,227 taxa from 185 samples across 15 existing stations. The Swedish study sequenced 380 archived weekly filters from 1974–2008 and recovered more than 2,700 genera, but that archive used unusually high air volumes and careful storage.",
+    "why_here": "Bridge between atmospheric infrastructure and biodiversity monitoring, with a retrospective archive effect that turns routine environmental sampling into latent ecological observation.",
+    "lane": "BRIDGE",
+    "primary_domain": "EARTH & ENVIRONMENT",
+    "story_grammar": "CAPABILITY SHIFT",
+    "evidence_status": "CURRENT RESULT",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 5,
+    "confidence": "high that existing air-monitoring networks can collect useful biodiversity eDNA; high that one Swedish archive preserved multi-decade ecological signal; moderate on broad transferability across other historical filter archives",
+    "article": "articles/2026-08-21-air-monitor-biodiversity.md",
+    "tags": ["airborne eDNA", "biodiversity", "air quality", "environmental monitoring", "archives", "sensor reuse"]
+  },
+  {
     "id": "2026-08-21-llm-airgap-containment",
     "folio": 9,
     "published_at": "2026-08-21T11:14:00Z",
