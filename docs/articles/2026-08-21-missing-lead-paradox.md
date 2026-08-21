@@ -20,7 +20,7 @@ That is a useful mechanism. It is not a detection.
 
 The paper itself says specific Pb-hosting phases in the deep Earth have not been conclusively identified. Its hidden-reservoir analysis is also explicitly conducted **under the assumption of a chondritic bulk silicate Earth**.
 
-That assumption matters because the strongest counterargument I found attacks the premise rather than the mineral physics.
+The strongest counterargument attacks that premise rather than the mineral physics.
 
 ## The paradox gets smaller if the Earth model gets more complicated
 
@@ -30,7 +30,7 @@ That framework does not make the observed isotope pattern disappear. It changes 
 
 If accessible rocks are preferentially sampling relatively radiogenic shallow reservoirs while less-radiogenic material follows different evolutionary paths, then every sample plotting to the radiogenic side of the meteorite geochron is not independent evidence for one enormous hidden vault of lead.
 
-This changed the conclusion from Turn 1. The 2026 Pb-S phases are better understood as **a plausible storage mechanism within one family of explanations**, not “the solution to Earth's missing lead.”
+Turn 1 treated the 2026 Pb-S phases as a candidate solution to a missing reservoir. Turn 2 changed that conclusion: they are better understood as **a plausible storage mechanism within one family of explanations**, not “the solution to Earth's missing lead.”
 
 Older work shows why that distinction is necessary. A 2008 partitioning experiment argued that Pb was not siderophile or chalcophile enough under the tested conditions for core sequestration alone to explain the mantle's Pb budget. Other models have defended stronger core partitioning under different conditions. Volatile loss during early Earth evolution has also been proposed. ([Nature, 2008](https://www.nature.com/articles/nature07375))
 
@@ -41,4 +41,4 @@ So several things can simultaneously be true:
 - pressure-stable Pb-S minerals could preserve such components;
 - and a better model of Earth's differentiation may reduce how much “missing” reservoir is required.
 
-The interesting part is the method. Planetary scientists can infer that a model is incomplete from isotope bookkeeping long before they can identify the missing reservoir directly. A new mineral-physics result can strengthen one explanation without settling the global history that made the explanation necessary.
+Isotope bookkeeping can show that a planetary model is incomplete long before the missing reservoir is directly identified. A new mineral-physics result can strengthen one explanation without settling the global history that made the explanation necessary.
