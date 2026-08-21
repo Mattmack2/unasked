@@ -1,4 +1,33 @@
 const STORAGE_KEY = 'unasked-feedback-v2';
+const THEME_KEY = 'unasked-theme';
+const themeButton = document.querySelector('#theme-toggle');
+const themeColor = document.querySelector('meta[name="theme-color"]');
+const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
+
+function resolvedTheme(){
+  return document.documentElement.dataset.theme || (systemTheme.matches ? 'dark' : 'light');
+}
+function syncThemeUI(){
+  const dark = resolvedTheme() === 'dark';
+  if(themeButton){
+    themeButton.textContent = dark ? 'LIGHT MODE' : 'DARK MODE';
+    themeButton.setAttribute('aria-pressed', String(dark));
+    themeButton.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  }
+  if(themeColor) themeColor.setAttribute('content', dark ? '#171512' : '#f0eadc');
+}
+function toggleTheme(){
+  const next = resolvedTheme() === 'dark' ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem(THEME_KEY, next); } catch (_) {}
+  syncThemeUI();
+}
+if(themeButton) themeButton.addEventListener('click', toggleTheme);
+if(systemTheme.addEventListener) systemTheme.addEventListener('change', ()=>{
+  if(!document.documentElement.dataset.theme) syncThemeUI();
+});
+syncThemeUI();
+
 const legacy = JSON.parse(localStorage.getItem('unasked-feedback-v1') || '{}');
 const state = {
   view: 'all',
