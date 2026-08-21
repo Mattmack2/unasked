@@ -1,9 +1,9 @@
 {
   "version": 2,
   "status": "TURN1_READY",
-  "pending_report": "research/full/2026-08-21-planarian-regenerative-memory-turn1.md",
-  "pending_candidate_id": "C-MB-008",
-  "pending_question": "If a planarian flatworm loses its entire brain and regenerates a new one, can a learned behavioral preference survive—and if so, what biological substrate could preserve enough information for the new brain to recover it?",
-  "last_published": "2026-08-21-miyake-events",
-  "note": "Manual MEMORY-BLIND Turn 1 frozen on planarian regenerative memory. The next invocation must perform Turn 2 on C-MB-008 before generating or publishing another candidate. The hourly schedule remains disabled for manual operation."
+  "pending_report": "research/full/2026-08-21-pluralistic-ignorance-turn1.md",
+  "pending_candidate_id": "C-VT-009",
+  "pending_question": "Can a social norm survive after many or most people privately stop supporting it simply because everyone is slow to learn that everyone else has changed?",
+  "last_published": "2026-08-21-planarian-regenerative-memory",
+  "note": "Manual Turn 2 for C-MB-008 completed with SURVIVES_WITH_MAJOR_CORRECTIONS and was published. A fresh Vocabulary Trapdoor Turn 1 is now frozen on pluralistic ignorance and belief-update lag. The next invocation must perform Turn 2 on C-VT-009 before generating or publishing another candidate. The hourly schedule remains disabled for manual operation."
 }
