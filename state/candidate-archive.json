@@ -96,13 +96,52 @@
     },
     {
       "id": "C-MB-008",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_major_corrections",
       "lane": "MEMORY-BLIND",
       "primary_domain": "LIFE & MEDICINE",
       "story_grammar": "RECEIVED_WISDOM_UNDER_REVIEW + HIDDEN_MECHANISM",
       "question": "If a planarian flatworm loses its entire brain and regenerates a new one, can a learned behavioral preference survive—and if so, what biological substrate could preserve enough information for the new brain to recover it?",
-      "why_preserved": "A 2026 peer-reviewed conditioned-place-preference result, a 2026 Harvard/Gershman conditioning failure, and an August 2026 Levin-group positive preprint create an unusually direct live replication frontier. The key correction is that posterior fragments are brainless but retain peripheral and ventral-cord nervous tissue.",
-      "turn1_artifact": "research/full/2026-08-21-planarian-regenerative-memory-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-planarian-regenerative-memory-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-planarian-regenerative-memory-turn2.md",
+      "published_article": "docs/articles/2026-08-21-planarian-regenerative-memory.md",
+      "turn2_note": "Survived only after demoting 'memory survives' to a contested experience-dependent behavioral effect; correcting brainless to brainless-but-not-nerveless; identifying the n=6 decisive regeneration cohort and adjusted tail p=0.048; flagging the missing unpaired reward control; and moving exotic storage mechanisms downstream of assay replication and tissue-localization experiments."
+    },
+    {
+      "id": "C-VT-009",
+      "status": "selected_turn1_frozen",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "SOCIETY & INSTITUTIONS",
+      "story_grammar": "HIDDEN_MECHANISM + RECEIVED_WISDOM_UNDER_REVIEW",
+      "question": "Can a social norm survive after many or most people privately stop supporting it simply because everyone is slow to learn that everyone else has changed?",
+      "why_preserved": "Pluralistic ignorance is a mature empirical phenomenon, while a 2026 PNAS model adds a distinct mechanism: private attitudes and second-order beliefs can update at different speeds, producing a stale perceived norm even without silence or deception. Large climate surveys and a Saudi field experiment make the consequence tangible, but Turn 2 must separate model mechanisms, survey beliefs and causal intervention evidence.",
+      "turn1_artifact": "research/full/2026-08-21-pluralistic-ignorance-turn1.md"
+    },
+    {
+      "id": "C-MB-009",
+      "status": "dormant",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "PHYSICAL WORLD & SPACE",
+      "story_grammar": "HIDDEN_MECHANISM",
+      "question": "What does the narwhal tusk's newly resolved hierarchical spiral structure actually do mechanically, and is its architecture meaningfully different from other mammalian dentine?",
+      "why_preserved": "Fresh structural result and far from recent neighborhoods, but it needs a consequence stronger than generic biomimicry before promotion."
+    },
+    {
+      "id": "C-EV-009",
+      "status": "dormant",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "RECEIVED_WISDOM_UNDER_REVIEW",
+      "question": "How much human landscape engineering is still hidden beneath Amazonian forest, and how much can remote sensing legitimately extrapolate beyond directly detected earthworks?",
+      "why_preserved": "Remote sensing continues to expand the known archaeological landscape, but Human Past is recent and extrapolated regional counts need unusually careful validation."
+    },
+    {
+      "id": "C-BR-009",
+      "status": "dormant",
+      "lane": "BRIDGE",
+      "primary_domain": "CULTURE & CRAFT",
+      "story_grammar": "CROSS_DOMAIN_BRIDGE",
+      "question": "Can one quantitative description of tool systems compare technological complexity across living primates, archaeological assemblages and ethnographic societies without smuggling human-specific assumptions into the metric?",
+      "why_preserved": "Potentially powerful common vocabulary across archaeology and animal behavior, but the consequence is methodological and needs a sharp empirical case."
     },
     {
       "id": "C-VT-008",
