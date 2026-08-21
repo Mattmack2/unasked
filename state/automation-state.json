@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "status": "WAITING_FOR_TURN1",
-  "pending_report": null,
-  "pending_candidate_id": null,
-  "pending_question": null,
+  "status": "TURN1_READY",
+  "pending_report": "research/full/2026-08-21-olfactory-heritage-turn1.md",
+  "pending_candidate_id": "C-MB-002",
+  "pending_question": "Can a smell meaningfully be preserved as cultural heritage—and if the physical source or living practice disappears, what exactly can an archive save?",
   "last_published": "2026-08-21-deep-time-enamel-proteins",
-  "note": "Palaeoproteomics Turn 2 completed with SURVIVES_WITH_CORRECTIONS and was published. Manual mode is waiting for the next Turn 1; no new candidate was generated in this invocation."
+  "note": "Manual MEMORY-BLIND Turn 1 frozen on olfactory heritage. The next invocation must perform Turn 2 on this report before generating or publishing another candidate."
 }
