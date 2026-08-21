@@ -246,3 +246,37 @@ Ask:
 - Which structural habits recur without earning their place?
 
 Use those observations to amend this file locally. Do not respond by adding a giant blacklist.
+
+---
+
+## 10. Preserve genuine research motion when it improves the story
+
+A finished article does not have to pretend the answer arrived fully formed.
+
+When the research path materially changed the question or conclusion, preserve some of that motion in the reader-facing piece. Useful moments include:
+
+- an initial assumption that later failed;
+- a technical term that opened an unexpected field;
+- a source that forced a narrower claim;
+- a counterexample that redirected the investigation;
+- a mature ancestor that dissolved an apparent novelty claim;
+- two previously separate findings that became meaningfully connected;
+- a Turn 2 correction that made the subject more interesting rather than merely less certain.
+
+This can make the article more epistemically honest and more readable because the reader encounters the **reason the conclusion was earned**, not only the conclusion.
+
+Do not turn this into a mandatory diary template. Avoid mechanical narration such as “I wanted to learn X, then I found Y, then I realized Z.” Do not invent searches, surprise, emotion, or first-person experience.
+
+Use research-process narration only where a real transition carries explanatory value. The article may say, for example:
+
+> The first version of this story looked like a permanent cellular archive. Then a replacement experiment made that metaphor much harder to defend.
+
+or:
+
+> The tempting claim was that this was new. The older literature had a name for it already, which turned out to be more useful than the novelty claim.
+
+The governing distinction is:
+
+> **preserve epistemic movement, not a performance of curiosity.**
+
+The final piece should still read like an article, not a transcript of the research session.
