@@ -1,5 +1,31 @@
 [
   {
+    "id": "2026-08-21-olfactory-heritage",
+    "folio": 3,
+    "published_at": "2026-08-21T09:46:00Z",
+    "title": "Which version of the past does a smell belong to?",
+    "hook": "Researchers can now reproduce the present smell of some historical objects with surprising rigor. The harder problem is deciding whether that is the smell of the past you actually meant to preserve.",
+    "simple": "Olfactory heritage combines chemistry, sensory testing, historical evidence and cultural context to document meaningful smells. A trustworthy archive usually preserves more than a formula: it records the source, perception, provenance, reconstruction method and which moment in time the smell represents.",
+    "why_interesting": "A scientifically accurate copy of a 200-year-old object's smell today may be historically wrong for what it smelled like when new. Smell turns conservation's old authenticity-and-patina problem into something you can literally breathe in.",
+    "tangible_edge": "A 2026 study recreated an aged historical perfume closely enough that a 70-person panel found no significant sensory difference; Odeuropa already maintains a physical Heritage Smell Library with documented reconstructions and provenance.",
+    "why_here": "Memory-blind field discovery: olfactory heritage sits far outside the recent research neighborhood and exposes an unfamiliar archival problem with current chemistry, museum practice and living-tradition consequences.",
+    "lane": "MEMORY-BLIND",
+    "primary_domain": "CULTURE & CRAFT",
+    "story_grammar": "CAPABILITY SHIFT",
+    "evidence_status": "CURRENT RESULT",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 9,
+    "confidence": "high that olfactory heritage is a real interdisciplinary practice and that bounded scent reconstruction can be rigorously validated; moderate on how well these methods generalize to complex or vanished smellscapes",
+    "article": "articles/2026-08-21-olfactory-heritage.md",
+    "tags": [
+      "olfactory heritage",
+      "smellscape",
+      "museums",
+      "conservation",
+      "sensomics"
+    ]
+  },
+  {
     "id": "2026-08-21-deep-time-enamel-proteins",
     "folio": 2,
     "published_at": "2026-08-21T09:31:00Z",
