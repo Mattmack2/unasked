@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-microchimerism",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "LIFE & MEDICINE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "evidence_status": "ESTABLISHED",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "memory-blind / outside recent active research neighborhoods",
+      "bridge_fields": ["microchimerism", "reproductive immunology", "immune tolerance", "evolutionary medicine"],
+      "key_vocabulary": ["microchimerism", "fetal microchimerism", "maternal microchimerism", "NIMA", "microchiome"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T10:03:00Z"
+    },
+    {
       "id": "2026-08-21-olfactory-heritage",
       "lane": "MEMORY-BLIND",
       "primary_domain": "CULTURE & CRAFT",
@@ -9,20 +22,8 @@
       "evidence_status": "CURRENT RESULT",
       "discovery_status": "KNOWN FIELD",
       "seed_neighborhood": "memory-blind / outside recent active research neighborhoods",
-      "bridge_fields": [
-        "olfactory heritage",
-        "heritage conservation",
-        "sensory science",
-        "museum studies"
-      ],
-      "key_vocabulary": [
-        "olfactory heritage",
-        "smellscape",
-        "smellmark",
-        "GC-olfactometry",
-        "odour activity value",
-        "sensomics"
-      ],
+      "bridge_fields": ["olfactory heritage", "heritage conservation", "sensory science", "museum studies"],
+      "key_vocabulary": ["olfactory heritage", "smellscape", "smellmark", "GC-olfactometry", "odour activity value", "sensomics"],
       "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
       "published_at": "2026-08-21T09:46:00Z"
     },
@@ -34,18 +35,8 @@
       "evidence_status": "CURRENT RESULT",
       "discovery_status": "KNOWN FIELD",
       "seed_neighborhood": "memory-blind / outside recent active research neighborhoods",
-      "bridge_fields": [
-        "palaeoproteomics",
-        "paleoanthropology",
-        "mass spectrometry",
-        "molecular evolution"
-      ],
-      "key_vocabulary": [
-        "palaeoproteomics",
-        "enamel proteome",
-        "diagenesis",
-        "micro-destructive acid etching"
-      ],
+      "bridge_fields": ["palaeoproteomics", "paleoanthropology", "mass spectrometry", "molecular evolution"],
+      "key_vocabulary": ["palaeoproteomics", "enamel proteome", "diagenesis", "micro-destructive acid etching"],
       "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
       "published_at": "2026-08-21T09:31:00Z"
     },
@@ -57,15 +48,8 @@
       "evidence_status": "ESTABLISHED",
       "discovery_status": "KNOWN FIELD",
       "seed_neighborhood": "research methodology",
-      "bridge_fields": [
-        "literature-based discovery",
-        "information science"
-      ],
-      "key_vocabulary": [
-        "undiscovered public knowledge",
-        "literature-based discovery",
-        "complementary but disjoint literatures"
-      ],
+      "bridge_fields": ["literature-based discovery", "information science"],
+      "key_vocabulary": ["undiscovered public knowledge", "literature-based discovery", "complementary but disjoint literatures"],
       "published_at": "2026-08-21T08:04:00Z"
     }
   ],
