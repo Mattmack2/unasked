@@ -2,6 +2,32 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-air-monitor-biodiversity",
+      "lane": "BRIDGE",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "CAPABILITY SHIFT",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "reuse of atmospheric monitoring infrastructure for biodiversity observation",
+      "bridge_fields": ["air-quality monitoring", "environmental DNA", "biodiversity surveillance", "atmospheric transport", "environmental archives"],
+      "key_vocabulary": ["airborne eDNA", "bioaerosol catchment", "metabarcoding", "shotgun metagenomics", "human genetic bycatch"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T11:25:00Z"
+    },
+    {
+      "id": "2026-08-21-llm-airgap-containment",
+      "lane": "SIDE REPORT",
+      "primary_domain": "COMPUTATION & TECHNOLOGY",
+      "story_grammar": "HIDDEN MECHANISM",
+      "evidence_status": "CURRENT RESULT",
+      "discovery_status": "NEW SYNTHESIS",
+      "seed_neighborhood": "user-directed investigation of LLM sandbox and physical containment",
+      "bridge_fields": ["AI safety", "computer security", "covert channels", "TEMPEST", "information theory"],
+      "key_vocabulary": ["air gap", "covert channel", "TEMPEST", "Faraday shielding", "confinement problem", "channel capacity"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T11:14:00Z"
+    },
+    {
       "id": "2026-08-21-ai-subscription-shadow-market",
       "lane": "SIDE REPORT",
       "primary_domain": "COMPUTATION & TECHNOLOGY",
