@@ -1,0 +1,27 @@
+[
+  {
+    "id": "2026-08-21-undiscovered-public-knowledge",
+    "folio": 1,
+    "published_at": "2026-08-21T08:04:00Z",
+    "title": "The internet can contain a connection nobody has written down",
+    "hook": "Two research fields can each contain half of a useful idea without either field stating the connection. Information science has a name for this: undiscovered public knowledge.",
+    "simple": "Separate literatures can contain enough public evidence to support a useful new inference even when nobody has explicitly joined the pieces.",
+    "why_interesting": "It turns the unknown-unknown problem into a search strategy: hunt for missing vocabulary and disconnected literatures, not just more documents about the query you already know.",
+    "tangible_edge": "Use cross-field bridges to generate better experiments, search terms, and mental models—then validate the proposed connection instead of trusting the analogy.",
+    "why_here": "Vocabulary trapdoor: a mature field for the problem of discovering things you do not yet know how to ask about.",
+    "lane": "VOCABULARY TRAPDOOR",
+    "primary_domain": "SOCIETY & INSTITUTIONS",
+    "story_grammar": "CROSS-DOMAIN BRIDGE",
+    "evidence_status": "ESTABLISHED",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 8,
+    "confidence": "high on the history of literature-based discovery; exploratory on the personal horizon-scanner application",
+    "article": "articles/2026-08-21-undiscovered-public-knowledge.md",
+    "tags": [
+      "discovery",
+      "information science",
+      "research",
+      "unknown unknowns"
+    ]
+  }
+]

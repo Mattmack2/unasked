@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "status": "TURN1_READY",
+  "pending_report": "research/full/2026-08-21-palaeoproteomics-deep-time-turn1.md",
+  "pending_candidate_id": "C-MB-001",
+  "pending_question": "Are ancient tooth-enamel proteins becoming a practical molecular archive for periods where recoverable DNA is usually gone, and what new historical/evolutionary questions does that make answerable?",
+  "last_published": "2026-08-21-undiscovered-public-knowledge",
+  "note": "V2 bootstrap Turn 1 is frozen. The next invocation must perform Turn 2 on this report before starting another Turn 1."
+}

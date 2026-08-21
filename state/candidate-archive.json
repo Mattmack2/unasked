@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "purpose": "Preserve promising stepping stones, rejected neighborhoods, and dormant questions so discovery can revisit them without collapsing to the nearest recent topic.",
+  "candidates": [
+    {
+      "id": "C-MB-001",
+      "status": "selected_turn1_frozen",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "CAPABILITY SHIFT",
+      "question": "Are ancient tooth-enamel proteins becoming a practical molecular archive for periods where recoverable DNA is usually gone, and what new historical questions does that unlock?",
+      "why_preserved": "Strong non-tech capability discontinuity with current primary evidence and concrete downstream use.",
+      "artifact": "research/full/2026-08-21-palaeoproteomics-deep-time-turn1.md"
+    },
+    {
+      "id": "C-W-001",
+      "status": "dormant",
+      "lane": "WEAK SIGNAL",
+      "primary_domain": "SPORT & COMPETITION",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Which measurement capability is quietly changing what can be inferred about fatigue, strategy, or coordination in sport before it reaches broadcast-level analysis?",
+      "why_preserved": "Potentially rich but too broad; needs vocabulary graft before promotion."
+    },
+    {
+      "id": "C-H-001",
+      "status": "dormant",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "RECEIVED WISDOM UNDER REVIEW",
+      "question": "Which widely repeated historical story changed materially after historians began treating the hostile source tradition itself as an object of analysis?",
+      "why_preserved": "Promising grammar, but must avoid trivia and find a case with a real historiographical mechanism and source-quality payoff."
+    },
+    {
+      "id": "C-F-001",
+      "status": "dormant",
+      "lane": "FAILED DREAM",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "FAILED DREAM REVIVAL",
+      "question": "Which long-dismissed environmental monitoring idea became newly useful because sensing or inference cost collapsed?",
+      "why_preserved": "Good capability-shift structure; requires a specific old blocker and current deployment evidence."
+    }
+  ]
+}

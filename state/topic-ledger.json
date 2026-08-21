@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "published": [
+    {
+      "id": "2026-08-21-undiscovered-public-knowledge",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "SOCIETY & INSTITUTIONS",
+      "story_grammar": "CROSS-DOMAIN BRIDGE",
+      "evidence_status": "ESTABLISHED",
+      "discovery_status": "KNOWN FIELD",
+      "seed_neighborhood": "research methodology",
+      "bridge_fields": [
+        "literature-based discovery",
+        "information science"
+      ],
+      "key_vocabulary": [
+        "undiscovered public knowledge",
+        "literature-based discovery",
+        "complementary but disjoint literatures"
+      ],
+      "published_at": "2026-08-21T08:04:00Z"
+    }
+  ],
+  "retired": [],
+  "domain_window_policy": {
+    "window": 8,
+    "aim_min_primary_domains": 5,
+    "max_computation_technology": 3,
+    "aim_min_far_neighborhood_items": 2,
+    "aim_min_memory_blind": 1
+  }
+}
