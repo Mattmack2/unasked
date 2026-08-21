@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-missing-lead-paradox",
+    "folio": 6,
+    "published_at": "2026-08-21T10:24:00Z",
+    "title": "Earth's ‘missing lead’ may be partly a model problem",
+    "hook": "Lead isotopes in accessible rocks do not balance under a simple chondritic-Earth model. A 2026 study supplies a plausible deep-mantle storage mechanism, while a 2023 global reassessment weakens the assumption that one giant hidden reservoir is required.",
+    "simple": "Uranium decay makes some lead isotopes more radiogenic over time. Most accessible terrestrial lead is too radiogenic under the classical model, implying either hidden unradiogenic material, early Pb loss, a different starting composition, or a more complicated differentiation history.",
+    "why_interesting": "The same evidence can support two different advances at once: mineral physics can make a hidden reservoir physically plausible while better global isotope models reduce how much hidden reservoir the bookkeeping demands.",
+    "tangible_edge": "Exceptionally unradiogenic Pb has been measured in mantle peridotites and sulfide inclusions. The 2026 result predicts pressure-stable Pb-S phases that could store such Pb, but no large lower-mantle reservoir has been directly identified.",
+    "why_here": "Vocabulary trapdoor: the ‘missing lead paradox’ turns a familiar element into a problem about planetary isotope bookkeeping, inaccessible reservoirs and model assumptions.",
+    "lane": "VOCABULARY TRAPDOOR",
+    "primary_domain": "PHYSICAL WORLD & SPACE",
+    "story_grammar": "HIDDEN MECHANISM",
+    "evidence_status": "CURRENT RESULT",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 6,
+    "confidence": "high on the classical isotope imbalance and direct unradiogenic mantle observations; moderate on the importance of pressure-stable Pb-S storage; low on any claim that one hidden reservoir uniquely solves the global Pb budget",
+    "article": "articles/2026-08-21-missing-lead-paradox.md",
+    "tags": ["lead isotopes", "mantle", "geochemistry", "bulk silicate Earth", "deep Earth"]
+  },
+  {
     "id": "2026-08-21-shipping-sulfur-clouds",
     "folio": 5,
     "published_at": "2026-08-21T10:18:00Z",
