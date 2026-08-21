@@ -1,5 +1,31 @@
 [
   {
+    "id": "2026-08-21-deep-time-enamel-proteins",
+    "folio": 2,
+    "published_at": "2026-08-21T09:31:00Z",
+    "title": "What survives after the genome doesn't",
+    "hook": "Fossil tooth enamel can preserve a few molecular clues long after most biological information has disappeared. Modern mass spectrometry is turning some supposedly morphology-only fossils into molecular evidence.",
+    "simple": "Tooth enamel traps a small set of proteins while it forms. Those proteins carry far less information than DNA, but fragments can survive for extraordinary lengths of time and sometimes reveal sex markers or evolutionary variants.",
+    "why_interesting": "The fossil record does not have one molecular archive with one expiration date. DNA, proteins, isotopes and anatomy fail differently, so some fossils we think of as molecularly silent still contain another layer of evidence.",
+    "tangible_edge": "Researchers have already recovered informative enamel proteins from ~400,000-year-old hominins and authenticated fragments from 16–18-million-year-old East African mammal teeth.",
+    "why_here": "Memory-blind capability shift: a mature technique outside the recent technology-heavy research neighborhood that materially changes which questions can be asked of old fossils.",
+    "lane": "MEMORY-BLIND",
+    "primary_domain": "HUMAN PAST",
+    "story_grammar": "CAPABILITY SHIFT",
+    "evidence_status": "CURRENT RESULT",
+    "discovery_status": "KNOWN FIELD",
+    "read_minutes": 9,
+    "confidence": "high that enamel palaeoproteomics is a real and expanding molecular method; moderate on how broadly it will scale across collections and deep-time preservation regimes",
+    "article": "articles/2026-08-21-deep-time-enamel-proteins.md",
+    "tags": [
+      "human evolution",
+      "palaeoproteomics",
+      "fossils",
+      "mass spectrometry",
+      "deep time"
+    ]
+  },
+  {
     "id": "2026-08-21-undiscovered-public-knowledge",
     "folio": 1,
     "published_at": "2026-08-21T08:04:00Z",
