@@ -38,13 +38,25 @@
     },
     {
       "id": "C-EV-004",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "EARTH & ENVIRONMENT",
       "story_grammar": "HIDDEN MECHANISM",
       "question": "Did the 2020 cleanup of sulfur pollution from ships measurably darken marine clouds and unmask greenhouse warming—and what does that experiment tell us about aerosols and marine cloud brightening?",
-      "why_preserved": "Strong real-world perturbation with observed ship-track, cloud-microphysical and lightning responses; global temperature attribution remains an explicit Turn 2 target.",
-      "turn1_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn2.md",
+      "published_article": "docs/articles/2026-08-21-shipping-sulfur-clouds.md",
+      "turn2_note": "Survived after demoting 2023 attribution, correcting the Bay of Bengal lightning magnitude, bounding the 5% visible-track result to the southeastern Atlantic, and reframing IMO2020 as a natural experiment rather than a policy-irony or neutral 'termination shock' story."
+    },
+    {
+      "id": "C-VT-005",
+      "status": "selected_turn1_frozen",
+      "lane": "VOCABULARY TRAPDOOR",
+      "primary_domain": "PHYSICAL WORLD & SPACE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Why is lead in Earth's accessible rocks more radiogenic than a simple chondritic-Earth history predicts, and could pressure-stabilized lead sulfides be hiding the complementary ancient reservoir deep in the mantle?",
+      "why_preserved": "The term 'missing lead paradox' opens a decades-old isotope problem with direct mantle clues and a February 2026 pressure-stabilized Pb-S mechanism. Turn 2 must challenge whether modern global Pb models still require a large hidden reservoir and whether the computational phases can close the quantitative balance.",
+      "turn1_artifact": "research/full/2026-08-21-missing-lead-paradox-turn1.md"
     },
     {
       "id": "C-BR-004",
@@ -66,12 +78,12 @@
     },
     {
       "id": "C-VT-004",
-      "status": "dormant",
+      "status": "superseded_by_C-VT-005",
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "PHYSICAL WORLD & SPACE",
       "story_grammar": "HIDDEN MECHANISM",
       "question": "What is Earth's missing lead paradox, and can high-pressure mantle minerals hide the missing reservoir?",
-      "why_preserved": "Mature geochemical puzzle with a recent pressure-stabilized mechanism; needs a reader-facing consequence beyond technical novelty."
+      "why_preserved": "Mature geochemical puzzle with a recent pressure-stabilized mechanism; promoted to a fully researched C-VT-005."
     },
     {
       "id": "C-WS-004",
