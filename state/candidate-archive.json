@@ -33,8 +33,7 @@
       "question": "Does pregnancy leave long-lived genetically distinct cells in both mother and child, and what—if anything—does that change about how biology defines an individual?",
       "turn1_artifact": "research/full/2026-08-21-microchimerism-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-microchimerism-turn2.md",
-      "published_article": "docs/articles/2026-08-21-microchimerism.md",
-      "turn2_note": "Survived after separating presence from function, bounding male-brain source attribution, replacing the permanent-scrapbook metaphor with mouse evidence for turnover, and keeping evolutionary conflict as theory rather than human fact."
+      "published_article": "docs/articles/2026-08-21-microchimerism.md"
     },
     {
       "id": "C-EV-004",
@@ -45,27 +44,29 @@
       "question": "Did the 2020 cleanup of sulfur pollution from ships measurably darken marine clouds and unmask greenhouse warming—and what does that experiment tell us about aerosols and marine cloud brightening?",
       "turn1_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn2.md",
-      "published_article": "docs/articles/2026-08-21-shipping-sulfur-clouds.md",
-      "turn2_note": "Survived after demoting 2023 attribution, correcting the Bay of Bengal lightning magnitude, bounding the 5% visible-track result to the southeastern Atlantic, and reframing IMO2020 as a natural experiment rather than a policy-irony or neutral 'termination shock' story."
+      "published_article": "docs/articles/2026-08-21-shipping-sulfur-clouds.md"
     },
     {
       "id": "C-VT-005",
-      "status": "selected_turn1_frozen",
+      "status": "published_turn2_survives_with_corrections",
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "PHYSICAL WORLD & SPACE",
       "story_grammar": "HIDDEN MECHANISM",
       "question": "Why is lead in Earth's accessible rocks more radiogenic than a simple chondritic-Earth history predicts, and could pressure-stabilized lead sulfides be hiding the complementary ancient reservoir deep in the mantle?",
-      "why_preserved": "The term 'missing lead paradox' opens a decades-old isotope problem with direct mantle clues and a February 2026 pressure-stabilized Pb-S mechanism. Turn 2 must challenge whether modern global Pb models still require a large hidden reservoir and whether the computational phases can close the quantitative balance.",
-      "turn1_artifact": "research/full/2026-08-21-missing-lead-paradox-turn1.md"
+      "turn1_artifact": "research/full/2026-08-21-missing-lead-paradox-turn1.md",
+      "turn2_artifact": "research/full/2026-08-21-missing-lead-paradox-turn2.md",
+      "published_article": "docs/articles/2026-08-21-missing-lead-paradox.md",
+      "turn2_note": "Survived after making the chondritic-BSE assumption explicit, treating the 2026 Pb-S phases as a computational mechanism rather than a detected reservoir, and elevating the 2023 dynamic Pb-evolution framework as a serious alternative to one large hidden-reservoir interpretation."
     },
     {
-      "id": "C-BR-004",
-      "status": "dormant",
+      "id": "C-BR-006",
+      "status": "selected_turn1_frozen",
       "lane": "BRIDGE",
       "primary_domain": "SPORT & COMPETITION",
       "story_grammar": "HIDDEN MECHANISM",
-      "question": "Is part of the hot-hand debate actually an opponent-response problem, where defenders react to recent makes and alter the probability of the next shot?",
-      "why_preserved": "Links streak statistics to endogenous strategic feedback; a current player-tracking route may separate shooter state from opponent response."
+      "question": "When a basketball player starts making shots, how much does the defense change the environment of the next shot—and does that mean the classic hot-hand question has partly been measured as though an adaptive opponent were not there?",
+      "why_preserved": "Adds a new feed domain and connects a famous statistical controversy to endogenous opponent response. A 2026 player-tracking study finds asymmetric, short-memory defensive adaptation, but Turn 2 must separate behavioral response from proof of the hot hand and challenge the limited 2015–16 dataset.",
+      "turn1_artifact": "research/full/2026-08-21-hot-hand-defense-turn1.md"
     },
     {
       "id": "C-FD-004",
@@ -77,73 +78,6 @@
       "why_preserved": "Clear old-design/new-governance and administration story; must stay separate from personal financial advice."
     },
     {
-      "id": "C-VT-004",
-      "status": "superseded_by_C-VT-005",
-      "lane": "VOCABULARY TRAPDOOR",
-      "primary_domain": "PHYSICAL WORLD & SPACE",
-      "story_grammar": "HIDDEN MECHANISM",
-      "question": "What is Earth's missing lead paradox, and can high-pressure mantle minerals hide the missing reservoir?",
-      "why_preserved": "Mature geochemical puzzle with a recent pressure-stabilized mechanism; promoted to a fully researched C-VT-005."
-    },
-    {
-      "id": "C-WS-004",
-      "status": "dormant",
-      "lane": "WEAK SIGNAL",
-      "primary_domain": "HUMAN PAST",
-      "story_grammar": "CAPABILITY SHIFT",
-      "question": "Are quantitative microscopic tool marks becoming a practical archive of technologies that rarely survive archaeologically?",
-      "why_preserved": "Multiple experimental-microscopy approaches suggest indirect traces can recover everyday technological transitions."
-    },
-    {
-      "id": "C-MB-004",
-      "status": "dormant",
-      "lane": "MEMORY-BLIND",
-      "primary_domain": "PHYSICAL WORLD & SPACE",
-      "story_grammar": "HIDDEN MECHANISM",
-      "question": "Why do some deep-sea glass sponges build silica structures with optical and mechanical behavior that resembles engineered fibers?",
-      "why_preserved": "Genuinely far from the recent feed and potentially rich in biological materials design, but needs a stronger consequence than biomimicry trivia."
-    },
-    {
-      "id": "C-EV-003",
-      "status": "superseded_by_C-EV-004",
-      "lane": "EXPECTATION VIOLATION",
-      "primary_domain": "EARTH & ENVIRONMENT",
-      "story_grammar": "HIDDEN MECHANISM",
-      "question": "Did the 2020 cleanup of sulfur pollution from ship fuel unintentionally darken some marine clouds, alter lightning, and unmask part of greenhouse warming?"
-    },
-    {
-      "id": "C-BR-003",
-      "status": "superseded_by_C-BR-004",
-      "lane": "BRIDGE",
-      "primary_domain": "SPORT & COMPETITION",
-      "story_grammar": "HIDDEN MECHANISM",
-      "question": "Is part of the hot-hand debate actually an opponent-response problem, where defenders react to recent makes and change the probability of the next shot?"
-    },
-    {
-      "id": "C-VT-003",
-      "status": "superseded_by_C-VT-004",
-      "lane": "VOCABULARY TRAPDOOR",
-      "primary_domain": "PHYSICAL WORLD & SPACE",
-      "story_grammar": "HIDDEN MECHANISM",
-      "question": "What is the geochemical missing lead paradox, and could high-pressure minerals hide a reservoir of Earth's original lead deep in the mantle?"
-    },
-    {
-      "id": "C-FD-003",
-      "status": "dormant",
-      "lane": "FAILED DREAM",
-      "primary_domain": "COMPUTATION & TECHNOLOGY",
-      "story_grammar": "FAILED DREAM REVIVAL",
-      "question": "Why are aqueous batteries being revisited after repeatedly losing to higher-energy non-aqueous chemistries?"
-    },
-    {
-      "id": "C-WS-003",
-      "status": "superseded_by_C-WS-004",
-      "lane": "WEAK SIGNAL",
-      "primary_domain": "HUMAN PAST",
-      "story_grammar": "CAPABILITY SHIFT",
-      "question": "Are microscopic use-wear and butchery marks becoming a quantitative proxy for technologies that barely survive archaeologically?"
-    },
-    {
       "id": "C-V-002",
       "status": "dormant",
       "lane": "VOCABULARY TRAPDOOR",
@@ -152,12 +86,37 @@
       "question": "How can a full spoken language be compressed into a whistle and remain intelligible over long distances?"
     },
     {
-      "id": "C-FD-002",
+      "id": "C-WS-004",
+      "status": "dormant",
+      "lane": "WEAK SIGNAL",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "CAPABILITY SHIFT",
+      "question": "Are quantitative microscopic tool marks becoming a practical archive of technologies that rarely survive archaeologically?"
+    },
+    {
+      "id": "C-WS-002",
+      "status": "dormant",
+      "lane": "WEAK SIGNAL",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "CAPABILITY SHIFT",
+      "question": "Is darkness becoming a biodiversity resource that cities and protected areas actively conserve rather than merely an astronomy amenity?"
+    },
+    {
+      "id": "C-MB-004",
+      "status": "dormant",
+      "lane": "MEMORY-BLIND",
+      "primary_domain": "PHYSICAL WORLD & SPACE",
+      "story_grammar": "HIDDEN MECHANISM",
+      "question": "Why do some deep-sea glass sponges build silica structures with optical and mechanical behavior that resembles engineered fibers?",
+      "why_preserved": "Genuinely far from the recent feed, but needs a stronger consequence than biomimicry trivia."
+    },
+    {
+      "id": "C-FD-003",
       "status": "dormant",
       "lane": "FAILED DREAM",
-      "primary_domain": "SOCIETY & INSTITUTIONS",
+      "primary_domain": "COMPUTATION & TECHNOLOGY",
       "story_grammar": "FAILED DREAM REVIVAL",
-      "question": "Why are tontine-like longevity pools being seriously reconsidered after centuries as a financial historical curiosity?"
+      "question": "Why are aqueous batteries being revisited after repeatedly losing to higher-energy non-aqueous chemistries?"
     },
     {
       "id": "C-W-001",
@@ -182,14 +141,6 @@
       "primary_domain": "EARTH & ENVIRONMENT",
       "story_grammar": "FAILED DREAM REVIVAL",
       "question": "Which long-dismissed environmental monitoring idea became newly useful because sensing or inference cost collapsed?"
-    },
-    {
-      "id": "C-WS-002",
-      "status": "dormant",
-      "lane": "WEAK SIGNAL",
-      "primary_domain": "EARTH & ENVIRONMENT",
-      "story_grammar": "CAPABILITY SHIFT",
-      "question": "Is darkness becoming a biodiversity resource that cities and protected areas actively conserve rather than merely an astronomy amenity?"
     }
   ]
 }
