@@ -1,5 +1,25 @@
 [
   {
+    "id": "2026-08-21-ai-subscription-shadow-market",
+    "folio": 8,
+    "published_at": "2026-08-21T10:52:00Z",
+    "title": "How AI subscriptions become shadow APIs",
+    "hook": "Open-source gateways can turn consumer AI subscriptions into pooled, billable API capacity. The important boundary is not third-party software itself; it is whether usage remains attached to the person who bought the entitlement or is re-served to other users.",
+    "simple": "Tools such as Sub2API and CLIProxyAPI wrap subscription-backed coding products behind common APIs, manage multiple accounts, and can issue downstream keys. Some uses are legitimate client portability; pooling and resale are the clearer arbitrage pattern.",
+    "why_interesting": "Agentic software can make one legitimate subscriber consume like a service. Providers are now choosing between official-surface restrictions, identity-bound third-party access, and separate programmable meters.",
+    "tangible_edge": "Google has already run a suspension-and-reinstatement cycle over OAuth piggybacking; OpenAI says Codex re-serving is fraud-flagged while supported OSS clients are fine; GitHub formally supports third-party Copilot apps when each user brings their own entitlement.",
+    "why_here": "User-directed side report on the increasingly important boundary between flat-rate AI subscriptions and machine-speed programmable inference.",
+    "lane": "SIDE REPORT",
+    "primary_domain": "COMPUTATION & TECHNOLOGY",
+    "story_grammar": "HIDDEN MECHANISM",
+    "evidence_status": "CURRENT RESULT",
+    "discovery_status": "NEW SYNTHESIS",
+    "read_minutes": 7,
+    "confidence": "high that subscription-to-API gateways and provider enforcement are substantial and active; moderate on how much traffic is commercial re-serving; low on any public estimate of market share",
+    "article": "articles/2026-08-21-ai-subscription-shadow-market.md",
+    "tags": ["AI subscriptions", "API relay", "Sub2API", "Codex", "Claude Code", "Gemini CLI", "entitlement design"]
+  },
+  {
     "id": "2026-08-21-hot-hand-defense",
     "folio": 7,
     "published_at": "2026-08-21T10:30:00Z",
