@@ -2,6 +2,19 @@
   "version": 2,
   "published": [
     {
+      "id": "2026-08-21-evolutionary-simulation-worlds",
+      "lane": "SIDE REPORT",
+      "primary_domain": "COMPUTATION & TECHNOLOGY",
+      "story_grammar": "CROSS-DOMAIN BRIDGE",
+      "evidence_status": "ESTABLISHED",
+      "discovery_status": "NEW SYNTHESIS",
+      "seed_neighborhood": "user-directed investigation of small evolutionary and ecological simulations for OWR",
+      "bridge_fields": ["artificial life", "evolutionary ecology", "digital evolution", "agent-based simulation", "OWR causal replay"],
+      "key_vocabulary": ["negative frequency-dependent selection", "adaptive radiation", "evolutionary rescue", "Red Queen dynamics", "niche construction", "ecological scaffolding", "evolvability", "exaptation"],
+      "turn2_verdict": "SURVIVES_WITH_CORRECTIONS",
+      "published_at": "2026-08-21T11:44:00Z"
+    },
+    {
       "id": "2026-08-21-air-monitor-biodiversity",
       "lane": "BRIDGE",
       "primary_domain": "EARTH & ENVIRONMENT",
