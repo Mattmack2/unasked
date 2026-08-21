@@ -18,7 +18,7 @@
       "status": "published_turn2_survives_with_corrections",
       "lane": "MEMORY-BLIND",
       "primary_domain": "CULTURE & CRAFT",
-      "story_grammar": "CAPABILITY SHIFT",
+      "story_grammar": "CAPABILITY_SHIFT",
       "question": "Can a smell meaningfully be preserved as cultural heritage—and if the physical source or living practice disappears, what exactly can an archive save?",
       "turn1_artifact": "research/full/2026-08-21-olfactory-heritage-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-olfactory-heritage-turn2.md",
@@ -29,7 +29,7 @@
       "status": "published_turn2_survives_with_corrections",
       "lane": "MEMORY-BLIND",
       "primary_domain": "LIFE & MEDICINE",
-      "story_grammar": "HIDDEN MECHANISM",
+      "story_grammar": "HIDDEN_MECHANISM",
       "question": "Does pregnancy leave long-lived genetically distinct cells in both mother and child, and what—if anything—does that change about how biology defines an individual?",
       "turn1_artifact": "research/full/2026-08-21-microchimerism-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-microchimerism-turn2.md",
@@ -40,7 +40,7 @@
       "status": "published_turn2_survives_with_corrections",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "EARTH & ENVIRONMENT",
-      "story_grammar": "HIDDEN MECHANISM",
+      "story_grammar": "HIDDEN_MECHANISM",
       "question": "Did the 2020 cleanup of sulfur pollution from ships measurably darken marine clouds and unmask greenhouse warming—and what does that experiment tell us about aerosols and marine cloud brightening?",
       "turn1_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-shipping-sulfur-clouds-turn2.md",
@@ -51,7 +51,7 @@
       "status": "published_turn2_survives_with_corrections",
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "PHYSICAL WORLD & SPACE",
-      "story_grammar": "HIDDEN MECHANISM",
+      "story_grammar": "HIDDEN_MECHANISM",
       "question": "Why is lead in Earth's accessible rocks more radiogenic than a simple chondritic-Earth history predicts, and could pressure-stabilized lead sulfides be hiding the complementary ancient reservoir deep in the mantle?",
       "turn1_artifact": "research/full/2026-08-21-missing-lead-paradox-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-missing-lead-paradox-turn2.md",
@@ -63,7 +63,7 @@
       "status": "published_turn2_survives_with_corrections",
       "lane": "BRIDGE",
       "primary_domain": "SPORT & COMPETITION",
-      "story_grammar": "HIDDEN MECHANISM",
+      "story_grammar": "HIDDEN_MECHANISM",
       "question": "When a basketball player starts making shots, how much does the defense change the environment of the next shot—and does that mean the classic hot-hand question has partly been measured as though an adaptive opponent were not there?",
       "turn1_artifact": "research/full/2026-08-21-hot-hand-defense-turn1.md",
       "turn2_artifact": "research/full/2026-08-21-hot-hand-defense-turn2.md",
@@ -71,11 +71,30 @@
       "turn2_note": "Survived after correcting the immediate make/miss interpretation to relative asymmetry, demoting the three-to-five-shot memory claim to an interpretation, localizing the strongest 2026 result to the closest defender, and separating defensive adaptation from the still-unsettled latent hot-hand effect."
     },
     {
+      "id": "C-BR-007",
+      "status": "selected_turn1_frozen",
+      "lane": "BRIDGE",
+      "primary_domain": "EARTH & ENVIRONMENT",
+      "story_grammar": "CAPABILITY_SHIFT",
+      "question": "Can existing air-pollution and atmospheric-monitoring networks double as large-scale biodiversity observatories—and can their stored filters recover ecological histories that nobody intended to record?",
+      "why_preserved": "A strong infrastructure bridge with direct national-scale and multi-decade evidence. The central uncertainty is not whether air contains biodiversity DNA, but how broadly routine filters and archives can support comparable ecological inference across networks.",
+      "turn1_artifact": "research/full/2026-08-21-air-monitor-biodiversity-turn1.md"
+    },
+    {
+      "id": "C-EV-007",
+      "status": "dormant",
+      "lane": "EXPECTATION VIOLATION",
+      "primary_domain": "HUMAN PAST",
+      "story_grammar": "CAPABILITY_SHIFT",
+      "question": "Can rare solar-particle events provide exact-year archaeological tie points, and does tree physiology limit how precisely a cosmogenic event appears in a tree ring?",
+      "why_preserved": "Miyake events can anchor floating tree-ring chronologies to calendar time, while 2024–26 work shows that carbon-cycle and tree-physiology effects complicate naive one-spike/one-year interpretation. Strong future Turn 1 candidate."
+    },
+    {
       "id": "C-FD-004",
       "status": "dormant",
       "lane": "FAILED DREAM",
       "primary_domain": "SOCIETY & INSTITUTIONS",
-      "story_grammar": "FAILED DREAM REVIVAL",
+      "story_grammar": "FAILED_DREAM_REVIVAL",
       "question": "Why are tontine-like longevity pools returning after centuries of stigma?",
       "why_preserved": "Clear old-design/new-governance and administration story; must stay separate from personal financial advice."
     },
@@ -84,7 +103,7 @@
       "status": "dormant",
       "lane": "VOCABULARY TRAPDOOR",
       "primary_domain": "CULTURE & CRAFT",
-      "story_grammar": "HIDDEN MECHANISM",
+      "story_grammar": "HIDDEN_MECHANISM",
       "question": "How can a full spoken language be compressed into a whistle and remain intelligible over long distances?"
     },
     {
@@ -92,7 +111,7 @@
       "status": "dormant",
       "lane": "WEAK SIGNAL",
       "primary_domain": "HUMAN PAST",
-      "story_grammar": "CAPABILITY SHIFT",
+      "story_grammar": "CAPABILITY_SHIFT",
       "question": "Are quantitative microscopic tool marks becoming a practical archive of technologies that rarely survive archaeologically?"
     },
     {
@@ -100,7 +119,7 @@
       "status": "dormant",
       "lane": "WEAK SIGNAL",
       "primary_domain": "EARTH & ENVIRONMENT",
-      "story_grammar": "CAPABILITY SHIFT",
+      "story_grammar": "CAPABILITY_SHIFT",
       "question": "Is darkness becoming a biodiversity resource that cities and protected areas actively conserve rather than merely an astronomy amenity?"
     },
     {
@@ -108,7 +127,7 @@
       "status": "dormant",
       "lane": "MEMORY-BLIND",
       "primary_domain": "PHYSICAL WORLD & SPACE",
-      "story_grammar": "HIDDEN MECHANISM",
+      "story_grammar": "HIDDEN_MECHANISM",
       "question": "Why do some deep-sea glass sponges build silica structures with optical and mechanical behavior that resembles engineered fibers?",
       "why_preserved": "Genuinely far from the recent feed, but needs a stronger consequence than biomimicry trivia."
     },
@@ -117,7 +136,7 @@
       "status": "dormant",
       "lane": "FAILED DREAM",
       "primary_domain": "COMPUTATION & TECHNOLOGY",
-      "story_grammar": "FAILED DREAM REVIVAL",
+      "story_grammar": "FAILED_DREAM_REVIVAL",
       "question": "Why are aqueous batteries being revisited after repeatedly losing to higher-energy non-aqueous chemistries?"
     },
     {
@@ -125,7 +144,7 @@
       "status": "dormant",
       "lane": "WEAK SIGNAL",
       "primary_domain": "SPORT & COMPETITION",
-      "story_grammar": "HIDDEN MECHANISM",
+      "story_grammar": "HIDDEN_MECHANISM",
       "question": "Which measurement capability is quietly changing what can be inferred about fatigue, strategy, or coordination in sport before it reaches broadcast-level analysis?"
     },
     {
@@ -133,7 +152,7 @@
       "status": "dormant",
       "lane": "EXPECTATION VIOLATION",
       "primary_domain": "HUMAN PAST",
-      "story_grammar": "RECEIVED WISDOM UNDER REVIEW",
+      "story_grammar": "RECEIVED_WISDOM_UNDER_REVIEW",
       "question": "Which widely repeated historical story changed materially after historians began treating the hostile source tradition itself as an object of analysis?"
     },
     {
@@ -141,7 +160,7 @@
       "status": "dormant",
       "lane": "FAILED DREAM",
       "primary_domain": "EARTH & ENVIRONMENT",
-      "story_grammar": "FAILED DREAM REVIVAL",
+      "story_grammar": "FAILED_DREAM_REVIVAL",
       "question": "Which long-dismissed environmental monitoring idea became newly useful because sensing or inference cost collapsed?"
     }
   ]
