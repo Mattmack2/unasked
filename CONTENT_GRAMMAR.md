@@ -1,160 +1,240 @@
-# Unasked Content Grammar v2
+# Unasked Content Grammar v3
 
 ## Principle
 
-Unasked is not a feed of “interesting facts.” A good item contains a **mental-model delta** and a **tangible consequence**.
+Unasked is not a feed of “interesting facts.” A good item contains a **mental-model delta** and at least one **sharp consequence, tension, connection, or unlocked question**.
 
 The research can be difficult. The reading surface must make it possible to enter at three depths:
 
 ```text
-30–60 seconds  -> understand the idea
-5–10 minutes   -> understand why it matters and how it works
-optional        -> inspect evidence, caveats and research lineage
+20–45 seconds  -> understand the basic finding and why it is interesting
+5–10 minutes   -> understand how it works, evidence, caveats and research movement
+optional        -> inspect deeper sources / research artifacts
 ```
 
-This borrows the strongest idea from Frontier Part Two: progressive disclosure. The full research substrate remains underneath; the normal reading surface is layered.
-
+The collapsed card must be written for a smart reader who has **none of the specialist vocabulary the researcher just acquired**.
 
 ## Writing layer
 
-`VOICE_AND_AUTHORSHIP.md` governs the final prose pass. The article writer must begin from the Turn 2 frozen semantic bank rather than from a generic topic prompt.
+`VOICE_AND_AUTHORSHIP.md` governs article prose. `research/BLURB_AND_SIDE_FEED_RESEARCH_V1.md` governs the current short-form rationale.
 
-The three early modules below are stable publication furniture; the rest of the article should vary with the story grammar and evidence. Do not force every piece into the same rhetorical arc merely for consistency.
+The article writer begins from the frozen Turn 2 semantic bank rather than a generic topic prompt. The feed-card writer also begins from that bank, but must translate it again for a zero-context reader.
 
-After drafting, run one **local synthetic-pattern review** and edit only the smallest spans that are actually generic, over-regular, inflated, or templated. No universal humanizer pass.
+Do not assume that because a term was explained in the article it is safe in the card.
 
-## Required early modules
+## Feed-card contract
 
-### 1. The simple version
+The four reader-facing fields have different jobs. Repetition across them is a failure.
 
-Explain the idea without relying on specialist vocabulary. Complexity may come immediately afterward.
+### HOOK — stop on one concrete thing
 
-Bad:
-> A cute analogy that deletes the mechanism.
+Usually one sentence.
 
-Good:
-> A precise explanation using ordinary language, followed by the real term.
+Prefer:
+- a specific object or action;
+- a named result;
+- a useful number;
+- a contradiction a reader can understand immediately.
 
-### 2. Why this is interesting
+Avoid:
+- unexplained domain vocabulary;
+- field-level abstractions;
+- vague curiosity-gap language;
+- `researchers discovered something surprising...`.
 
-Answer at least one:
+Target: about 12–30 words.
 
-- What belief does this complicate?
-- What hidden mechanism does it reveal?
-- What previously disconnected domains does it join?
-- What does it let us observe that used to be inaccessible?
-- What old story looks different after this evidence?
-- What new action becomes plausible?
+### PLAIN — explain what is happening
 
-Do not write generic “this could revolutionize X” prose.
+One or two short sentences using ordinary words.
 
-### 3. The tangible edge
+- Explain the actual mechanism or finding.
+- Introduce a technical term only when it earns precision, then define it immediately.
+- The reader should not need another report, a glossary, or the article to understand the basic claim.
+- Do not use an analogy that removes the mechanism.
 
-Prefer real examples over hypothetical ones. When applications are prospective, mark them clearly.
+Target: about 25–55 words.
 
-Possible forms:
+### WHY — name the mental-model change
 
-- **Already real:** where the method/capability is being used now.
-- **Could be used:** a plausible application supported by the mechanism.
-- **How this changes how to think:** a decision heuristic or mental model.
-- **Watch for:** an observable signal that the near-future hypothesis is becoming real.
+One idea only.
+
+Answer one:
+- Which assumption is now weaker?
+- Which boundary moved?
+- What hidden mechanism changes the interpretation?
+- What became measurable or possible?
+- Which familiar story now needs a different frame?
+
+Do not write generic significance language such as `this could transform the field`.
+
+Target: about 20–50 words.
+
+### EDGE — make one interesting move beyond the finding
+
+`EDGE` no longer means only `where it becomes tangible`.
+
+It is the strongest non-obvious take the validated research earns. Pick **one** form:
+
+- **Implication** — what follows if the finding is true?
+- **Tension** — which two true things now sit awkwardly together?
+- **Connection** — what other report, field, system, or familiar situation becomes clearer?
+- **Counterfactual** — what changes if one condition is removed or reversed?
+- **Use** — one specific present or plausible use, not a generic application list.
+- **Unlocked question** — what better question can now be asked?
+
+Rules:
+- EDGE must add a new proposition not already in HOOK / PLAIN / WHY.
+- One edge, never a list.
+- Prefer a concrete example, named comparison, or causal consequence.
+- It should still be interesting if copied out of the card by itself.
+- If the best edge is merely `this may have applications`, the candidate is probably not publication-ready.
+
+Target: about 25–60 words.
+
+## Short-form quality gate
+
+Read only `title + hook + plain + why + edge`.
+
+The card fails if:
+- a non-specialist cannot explain the basic finding afterward;
+- specialist terms appear before the ordinary-language idea;
+- two fields make the same point;
+- removing EDGE loses nothing;
+- EDGE is a list of uses;
+- a vague question is used where a direct statement would be clearer;
+- the result reads like a research abstract rather than an entrance to the research.
+
+Research guidance behind this gate is preserved in `research/BLURB_AND_SIDE_FEED_RESEARCH_V1.md`.
+
+## Side-feed grammar
+
+`docs/side-feed.json` is a separate short-form surface, not another summary column.
+
+Visible identity:
+
+```text
+Unasked
+@unasked_notes
+FICTIONAL SIDE FEED
+```
+
+This makes clear that the stream is generated editorial material, not the owner's account and not a real external social profile.
+
+### Allowed modes
+
+- `detail` — one concrete fact, number, quote fragment, or mechanism;
+- `reaction` — a casual take on one point;
+- `connection` — connects two reports or a report to a familiar system;
+- `question` — a genuine question the result opens;
+- `quote` — a short line from Unasked or an attributed source;
+- `summary` — occasional whole-report compression;
+- `edge` — a conversational version of a strong implication.
+
+### Side-feed rules
+
+- Default to one thought per post.
+- Keep posts under 280 characters unless a future design explicitly changes the constraint.
+- Ordinary words first.
+- No obligatory CTA, hashtag, headline, `new report` announcement, fake follower count, fake likes, or fake engagement statistics.
+- Do not make every post a summary.
+- Do not manufacture personal history or pretend to be the owner.
+- Casual stance is allowed; fake biography is not.
+- Underclaim contested findings even when the prose is conversational.
+
+For each published report, normally create 2–3 side posts. At least one should be `detail`, `reaction`, or `edge`; no more than one should be `summary`. Add a `connection` when a real cross-report pattern emerges.
+
+## Article structure
+
+There is no mandatory article template.
+
+Use headings only when they reduce cognitive load. `The simple version`, `Why this is interesting`, and `Where it becomes tangible` are optional tools, not required furniture. A short article may need none of them.
+
+After drafting, run one local synthetic-pattern review and edit only the smallest spans that are generic, inflated, repetitive, or templated. No universal humanizer pass.
 
 ## Story grammars
 
-Choose one primary grammar. This determines the rest of the article.
+Choose one primary grammar. This determines the likely research shape, not mandatory section headings.
 
 ### CAPABILITY SHIFT
 
 Use when society can now measure, build, infer or control something materially better than before.
 
-Sections usually include:
-
-- simple version;
-- old limit;
-- what changed;
-- how it works;
-- already real;
-- newly reachable applications;
-- remaining bottleneck;
-- what to watch next.
+Useful questions:
+- what was the old limit?
+- what changed?
+- how does it work?
+- where is it already real?
+- what does it newly make reachable?
+- what bottleneck remains?
 
 ### RECEIVED WISDOM UNDER REVIEW
 
-Use for history, science narratives, sports myths, institutional stories, etymologies and other claims that became culturally sticky.
+Use for history, science narratives, sports myths, institutional stories, etymologies and other culturally sticky claims.
 
-Sections usually include:
-
-- simple version;
-- the familiar story;
-- what the source chain actually is;
-- what serious scholarship agrees/disagrees about;
-- why the story hardened;
-- what we can responsibly say;
-- why the correction matters.
+Useful questions:
+- what is the familiar story?
+- what is the actual source chain?
+- where does serious scholarship agree/disagree?
+- why did the story harden?
+- what can responsibly be said now?
 
 ### HIDDEN MECHANISM
 
 Use when an unintuitive mechanism makes ordinary observations look different.
 
-- simple version;
-- surprising observation;
-- mechanism;
-- boundary conditions;
-- examples;
-- practical consequence;
-- strongest alternative explanation.
+Useful questions:
+- what observation needs explaining?
+- what mechanism changes the interpretation?
+- what are its boundary conditions?
+- what is the strongest alternative explanation?
 
 ### CROSS-DOMAIN BRIDGE
 
 Use when one field has vocabulary or machinery that clarifies another.
 
-- simple version;
-- field A's problem;
-- field B's mature vocabulary;
-- exact structural match and mismatch;
-- what transfers;
-- tangible use;
-- where the analogy breaks.
+Useful questions:
+- what is field A's problem?
+- what mature concept from field B maps onto it?
+- where does the analogy match exactly?
+- where does it break?
+- what useful test or question transfers?
 
 ### FAILED DREAM REVIVAL
 
-- what people wanted;
-- what was actually built;
-- why it stalled;
-- which constraint moved;
-- what still has not moved;
-- what a 2026 version could genuinely do;
-- enabler-removal test.
+Useful questions:
+- what did people originally want?
+- what was actually built?
+- why did it stall?
+- which constraint moved?
+- which constraint did not?
+- what can a 2026 version genuinely do now?
 
 ### NEAR FUTURE
 
 This is a forecast, not a fact report.
 
-- simple version;
-- enabling stack already present;
-- what must still happen;
-- 1–3 plausible futures rather than one prophecy;
-- bottlenecks;
-- leading indicators / watchlist;
-- reversal conditions.
+Useful questions:
+- which enabling pieces already exist?
+- what still has to happen?
+- what are 1–3 plausible futures rather than one prophecy?
+- what are the bottlenecks, leading indicators and reversal conditions?
 
 ### DISCOVERY CANDIDATE
 
 Use when Unasked itself finds a potentially non-obvious synthesis or question.
 
-- the candidate claim/question;
-- how it emerged;
-- ancestor / prior-art search;
-- evidence supporting it;
-- counterevidence;
-- cheapest discriminating test;
-- novelty status.
+Useful questions:
+- what is the candidate claim/question?
+- what is its closest ancestor/prior art?
+- what supports it?
+- what pushes against it?
+- what is the cheapest discriminating test?
+- what novelty label is actually earned?
 
 Never silently turn a synthesis into a scientific discovery.
 
 ## Epistemic / discovery labels
-
-These are displayed in the UI.
 
 ### Evidence status
 
@@ -173,8 +253,6 @@ These are displayed in the UI.
 - `NEW DISCOVERY` — reserved for externally validated original discovery. Scheduled Unasked runs should almost never use this label by themselves.
 
 ## Domains
-
-The feed must not drift into “AI and adjacent AI.” Use broad top-level domains:
 
 - `COMPUTATION & TECHNOLOGY`
 - `LIFE & MEDICINE`
